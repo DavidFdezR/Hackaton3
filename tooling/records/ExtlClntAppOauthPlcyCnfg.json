@@ -1,0 +1,40 @@
+{
+  "sobject": "ExtlClntAppOauthPlcyCnfg",
+  "count": 1,
+  "records": [
+    {
+      "Id": "0yOO50000009Ic1MAE",
+      "IsDeleted": false,
+      "DeveloperName": "ECA_003_oauthPlcy",
+      "Language": "en_US",
+      "MasterLabel": "ECA_003_oauthPlcy",
+      "CreatedDate": "2026-11-10T07:29:01.000+0000",
+      "CreatedById": "005O500000neorXIAQ",
+      "LastModifiedDate": "2026-11-10T07:29:49.000+0000",
+      "LastModifiedById": "005O500000neorXIAQ",
+      "SystemModstamp": "2026-11-10T07:29:49.000+0000",
+      "ExternalClientApplicationId": "0xIO5000000BDoLMAW",
+      "RefreshTokenPolicyType": "[REDACTED]",
+      "RefreshTokenValidityPeriod": 720,
+      "RefreshTokenValidityUnit": "Days",
+      "IpRelaxationPolicyType": "Enforce",
+      "PermittedUsersPolicyType": "AllSelfAuthorized",
+      "SessionTimeoutInMinutes": null,
+      "RequiredSessionLevel": "STANDARD",
+      "PolicyAction": null,
+      "ExtlClntAppOauthSettingsId": "3SNO5000000AUpdOAG",
+      "IsClientCredentialsFlowEnabled": false,
+      "ClientCredentialsFlowUser": null,
+      "ApexHandlerId": null,
+      "ExecuteHandlerAsId": null,
+      "SingleLogoutUrl": null,
+      "StartUrl": null,
+      "IsTokenExchangeFlowEnabled": false,
+      "IsGuestCodeCredFlowEnabled": true,
+      "GuestJwtTimeout": null,
+      "NamedUserJwtTimeout": null,
+      "NamedUserJwtSessionTimeoutType": null,
+      "GuestJwtSessionTimeoutType": "UserSession"
+    }
+  ]
+}

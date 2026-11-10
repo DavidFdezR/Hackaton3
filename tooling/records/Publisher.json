@@ -1,0 +1,429 @@
+{
+  "sobject": "Publisher",
+  "count": 47,
+  "records": [
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinDataDiscovery",
+      "Name": "EinsteinDataDiscovery",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Radian6Community",
+      "Name": "Radian6Community",
+      "NamespacePrefix": "R6Comm",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Conduit",
+      "Name": "Conduit",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinALM",
+      "Name": "EinsteinALM",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EC2Community",
+      "Name": "EC2Community",
+      "NamespacePrefix": "EC2Comm",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EmailStream",
+      "Name": "EmailStream",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SocialCustomerService",
+      "Name": "SocialCustomerService",
+      "NamespacePrefix": "SocialService",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "System",
+      "Name": "System",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CommonEvent",
+      "Name": "CommonEvent",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinAppAnalytics",
+      "Name": "EinsteinAppAnalytics",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Deskcom",
+      "Name": "Deskcom",
+      "NamespacePrefix": "Deskcom",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Archive",
+      "Name": "Archive",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinAgent",
+      "Name": "EinsteinAgent",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinBuilder",
+      "Name": "EinsteinBuilder",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "HawkingAppIntegration",
+      "Name": "HawkingAppIntegration",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SfInfoModel",
+      "Name": "SfInfoModel",
+      "NamespacePrefix": "SIM",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "UddCache",
+      "Name": "UddCache",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "AsyncQuery",
+      "Name": "AsyncQuery",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Pardot",
+      "Name": "Pardot",
+      "NamespacePrefix": "pi",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CDC",
+      "Name": "CDC",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinIntelligentOffers",
+      "Name": "EinsteinIntelligentOffers",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PlatformMonitoring",
+      "Name": "PlatformMonitoring",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "vcs",
+      "Name": "vcs",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "GenieDataModelRecs",
+      "Name": "GenieDataModelRecs",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Limits",
+      "Name": "Limits",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Lma",
+      "Name": "Lma",
+      "NamespacePrefix": "sfLma",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EventLogFiles",
+      "Name": "EventLogFiles",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Pliny",
+      "Name": "Pliny",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Evernote",
+      "Name": "Evernote",
+      "NamespacePrefix": "Evernote",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Gridforce",
+      "Name": "Gridforce",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ExternalEmail",
+      "Name": "ExternalEmail",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EinsteinFoundation",
+      "Name": "EinsteinFoundation",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "<local>",
+      "Name": "<local>",
+      "NamespacePrefix": "<local>",
+      "IsSalesforce": false,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "GoogleConnector",
+      "Name": "GoogleConnector",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MyTrailhead",
+      "Name": "MyTrailhead",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "RyppleCorp",
+      "Name": "RyppleCorp",
+      "NamespacePrefix": "rypple_corp",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PlatformMetrics",
+      "Name": "PlatformMetrics",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Radian6Service",
+      "Name": "Radian6Service",
+      "NamespacePrefix": "R6Service",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "KnowledgeGeneration",
+      "Name": "KnowledgeGeneration",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ContentHub",
+      "Name": "ContentHub",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MetadataCatalog",
+      "Name": "MetadataCatalog",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "JigsawClean",
+      "Name": "JigsawClean",
+      "NamespacePrefix": "jigsaw_clean",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ReadOnly",
+      "Name": "ReadOnly",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PlatformEventMetricsType",
+      "Name": "PlatformEventMetricsType",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SfdcTestPackage",
+      "Name": "SfdcTestPackage",
+      "NamespacePrefix": "SfdcTest",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "Radian6",
+      "Name": "Radian6",
+      "NamespacePrefix": "R6",
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PerformanceTools",
+      "Name": "PerformanceTools",
+      "NamespacePrefix": null,
+      "IsSalesforce": true,
+      "MajorVersion": 0,
+      "MinorVersion": 0
+    }
+  ]
+}

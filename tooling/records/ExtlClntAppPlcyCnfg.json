@@ -1,0 +1,28 @@
+{
+  "sobject": "ExtlClntAppPlcyCnfg",
+  "count": 1,
+  "records": [
+    {
+      "Id": "196O5000000IiaTIAS",
+      "IsDeleted": false,
+      "DeveloperName": "ECA_003_plcy",
+      "Language": "en_US",
+      "MasterLabel": "ECA_003_plcy",
+      "CreatedDate": "2026-11-10T07:29:00.000+0000",
+      "CreatedById": "005O500000neorXIAQ",
+      "LastModifiedDate": "2026-11-10T07:29:49.000+0000",
+      "LastModifiedById": "005O500000neorXIAQ",
+      "SystemModstamp": "2026-11-10T07:29:49.000+0000",
+      "ExternalClientApplicationId": "0xIO5000000BDoLMAW",
+      "IsEnabled": true,
+      "OauthPluginStatus": "Enabled",
+      "NotifPluginStatus": "Notinstalled",
+      "MobilePluginStatus": "Notinstalled",
+      "PushPluginStatus": "Notinstalled",
+      "StartPage": "None",
+      "SamlPluginStatus": "Notinstalled",
+      "CanvasPluginStatus": "Notinstalled",
+      "StartUrl": null
+    }
+  ]
+}

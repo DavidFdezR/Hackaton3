@@ -1,0 +1,978 @@
+{
+  "sobject": "FormulaFunction",
+  "count": 108,
+  "records": [
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ABS",
+      "Name": "ABS",
+      "Label": "ABS",
+      "CategoryId": "MATH",
+      "Description": "Returns the absolute value of a number, a number without its sign",
+      "ExampleString": "ABS(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ACOS",
+      "Name": "ACOS",
+      "Label": "ACOS",
+      "CategoryId": "MATH",
+      "Description": "Returns the arc cosine of the number in radians, if the given number is between -1 and 1. Otherwise NULL.",
+      "ExampleString": "ACOS(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ADDMONTHS",
+      "Name": "ADDMONTHS",
+      "Label": "ADDMONTHS",
+      "CategoryId": "DATE_TIME",
+      "Description": "Adds the given number of months to the date; uses the last day of the month when the result has fewer days. CONSTRAINT: First parameter must be a date type. Use DATEVALUE() for datetime fields.",
+      "ExampleString": "ADDMONTHS(date,num)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "AGE",
+      "Name": "AGE",
+      "Label": "AGE",
+      "CategoryId": "ADVANCED",
+      "Description": "Calculates the Age",
+      "ExampleString": "AGE(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "AGEON",
+      "Name": "AGEON",
+      "Label": "AGEON",
+      "CategoryId": "ADVANCED",
+      "Description": "Calculates the Age",
+      "ExampleString": "AGEON(date,date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "AI_SENTIMENT",
+      "Name": "AI_SENTIMENT",
+      "Label": "AI_SENTIMENT",
+      "CategoryId": "TEXT",
+      "Description": "Returns the sentiment analysis of the given text field. Returns Positive, Negative, or Neutral.",
+      "ExampleString": "AI_SENTIMENT(text_field)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "AND",
+      "Name": "AND",
+      "Label": "AND",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks whether all arguments are true and returns TRUE if all arguments are true",
+      "ExampleString": "AND(logical1,logical2,...)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ASCII",
+      "Name": "ASCII",
+      "Label": "ASCII",
+      "CategoryId": "TEXT",
+      "Description": "Return the first character's code point from the given string as a number.",
+      "ExampleString": "ASCII(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ASIN",
+      "Name": "ASIN",
+      "Label": "ASIN",
+      "CategoryId": "MATH",
+      "Description": "Returns the arc sine of the number in radians, if the given number is between -1 and 1. Otherwise NULL.",
+      "ExampleString": "ASIN(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ATAN",
+      "Name": "ATAN",
+      "Label": "ATAN",
+      "CategoryId": "MATH",
+      "Description": "Returns the arc tangent of the number in radians.",
+      "ExampleString": "ATAN(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ATAN2",
+      "Name": "ATAN2",
+      "Label": "ATAN2",
+      "CategoryId": "MATH",
+      "Description": "Returns the arc tangent of the quotient of y and x in radians.",
+      "ExampleString": "ATAN2(y, x)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "BEGINS",
+      "Name": "BEGINS",
+      "Label": "BEGINS",
+      "CategoryId": "TEXT",
+      "Description": "Returns true if text begins with the specified characters; otherwise false. CONSTRAINT: Not supported on picklist or location fields. Use TEXT(picklist) or specific address fields.",
+      "ExampleString": "BEGINS(text, compare_text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "BLANKVALUE",
+      "Name": "BLANKVALUE",
+      "Label": "BLANKVALUE",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks whether expression is blank and returns substitute_expression if it is blank. If expression is not blank, returns the original expression value.",
+      "ExampleString": "BLANKVALUE(expression, substitute_expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "BR",
+      "Name": "BR",
+      "Label": "BR",
+      "CategoryId": "TEXT",
+      "Description": "Inserts an HTML break tag in string formulas",
+      "ExampleString": "BR()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CASE",
+      "Name": "CASE",
+      "Label": "CASE",
+      "CategoryId": "LOGICAL",
+      "Description": "Compares an expression to values and returns the matching result or else-result. REQUIREMENT: Include a default 'else_result' as the last parameter. Parameter count must be even. NOTE: Picklists can be used directly as the expression.",
+      "ExampleString": "CASE(expression, value1, result1, value2, result2,...,else_result)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CASESAFEID",
+      "Name": "CASESAFEID",
+      "Label": "CASESAFEID",
+      "CategoryId": "TEXT",
+      "Description": "Converts a 15-character ID into a case insensitive 18-character ID",
+      "ExampleString": "CASESAFEID(id)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CEILING",
+      "Name": "CEILING",
+      "Label": "CEILING",
+      "CategoryId": "MATH",
+      "Description": "Rounds a number up to the nearest integer, away from zero if negative",
+      "ExampleString": "CEILING(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CHR",
+      "Name": "CHR",
+      "Label": "CHR",
+      "CategoryId": "TEXT",
+      "Description": "Return a string with the first character's code point as the given number.",
+      "ExampleString": "CHR(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CONTAINS",
+      "Name": "CONTAINS",
+      "Label": "CONTAINS",
+      "CategoryId": "TEXT",
+      "Description": "Returns true if text contains the specified characters; otherwise false. CONSTRAINT: Don't use on picklist, location, or address fields. Wrap picklists in TEXT(); for locations use components such as BillingCity.",
+      "ExampleString": "CONTAINS(text, compare_text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "COS",
+      "Name": "COS",
+      "Label": "COS",
+      "CategoryId": "MATH",
+      "Description": "Returns the cosine of the number, where the number given in radians",
+      "ExampleString": "COS(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "CURRENCYRATE",
+      "Name": "CURRENCYRATE",
+      "Label": "CURRENCYRATE",
+      "CategoryId": "ADVANCED",
+      "Description": "Return the conversion rate to the corporate currency for the given CurrencyIsoCode, or 1.0 if the currency is invalid.",
+      "ExampleString": "CURRENCYRATE(IsoCode)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DATE",
+      "Name": "DATE",
+      "Label": "DATE",
+      "CategoryId": "DATE_TIME",
+      "Description": "Creates a date from a year, month and day",
+      "ExampleString": "DATE(year,month,day)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DATETIMEVALUE",
+      "Name": "DATETIMEVALUE",
+      "Label": "DATETIMEVALUE",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the year, month, day, and GMT time. CONSTRAINT: Don't use on a field that is already a datetime type.",
+      "ExampleString": "DATETIMEVALUE(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DATEVALUE",
+      "Name": "DATEVALUE",
+      "Label": "DATEVALUE",
+      "CategoryId": "DATE_TIME",
+      "Description": "Creates a date from a datetime or text value. CONSTRAINT: Don't use on a field that is already a date type.",
+      "ExampleString": "DATEVALUE(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DAY",
+      "Name": "DAY",
+      "Label": "DAY",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the day of the month (1\u201331). CONSTRAINT: Use only with date fields. Convert datetime fields using DATEVALUE() first.",
+      "ExampleString": "DAY(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DAYOFYEAR",
+      "Name": "DAYOFYEAR",
+      "Label": "DAYOFYEAR",
+      "CategoryId": "DATE_TIME",
+      "Description": "Return the day of the calendar year (from 1-366).",
+      "ExampleString": "DAYOFYEAR(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DISTANCE",
+      "Name": "DISTANCE",
+      "Label": "DISTANCE",
+      "CategoryId": "MATH",
+      "Description": "Returns the distance between two locations using the provided unit.",
+      "ExampleString": "DISTANCE(location, location, unit)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "EXP",
+      "Name": "EXP",
+      "Label": "EXP",
+      "CategoryId": "MATH",
+      "Description": "Returns e raised to the power of a given number",
+      "ExampleString": "EXP(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "FIND",
+      "Name": "FIND",
+      "Label": "FIND",
+      "CategoryId": "TEXT",
+      "Description": "Returns the position of the search_text string in text",
+      "ExampleString": "FIND(search_text, text [, start_num])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "FLOOR",
+      "Name": "FLOOR",
+      "Label": "FLOOR",
+      "CategoryId": "MATH",
+      "Description": "Rounds a number down, towards zero to the nearest integer",
+      "ExampleString": "FLOOR(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "FORMATDURATION",
+      "Name": "FORMATDURATION",
+      "Label": "FORMATDURATION",
+      "CategoryId": "DATE_TIME",
+      "Description": "Format the number of seconds with optional days, or the difference between times or dateTimes as HH:MI:SS.",
+      "ExampleString": "FORMATDURATION(numSeconds[, includeDays] | dateTime/time, dateTime/time)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "FROMUNIXTIME",
+      "Name": "FROMUNIXTIME",
+      "Label": "FROMUNIXTIME",
+      "CategoryId": "DATE_TIME",
+      "Description": "Return the datetime that represents the given number as the seconds elapsed since 1 Jan 1970.",
+      "ExampleString": "FROMUNIXTIME(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "GEOLOCATION",
+      "Name": "GEOLOCATION",
+      "Label": "GEOLOCATION",
+      "CategoryId": "MATH",
+      "Description": "Returns a location based on the provided latitude and longitude.",
+      "ExampleString": "GEOLOCATION(latitude, longitude)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "GETRECORDIDS",
+      "Name": "GETRECORDIDS",
+      "Label": "GETRECORDIDS",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns an array of record IDs for the selected records in a list such as list view or related list. Use $ObjectType to identify the type of records such as $ObjectType.Contact.",
+      "ExampleString": "GETRECORDIDS(object_type)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "GETSESSIONID",
+      "Name": "GETSESSIONID",
+      "Label": "GETSESSIONID",
+      "CategoryId": "TEXT",
+      "Description": "Returns the current session ID. This may be useful in hyperlinks to other applications that use salesforce.com credentials for authentication",
+      "ExampleString": "GETSESSIONID()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "HOUR",
+      "Name": "HOUR",
+      "Label": "HOUR",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns hour of day",
+      "ExampleString": "HOUR(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "HTMLENCODE",
+      "Name": "HTMLENCODE",
+      "Label": "HTMLENCODE",
+      "CategoryId": "TEXT",
+      "Description": "Encodes text and merge field values for use in HTML",
+      "ExampleString": "HTMLENCODE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "HYPERLINK",
+      "Name": "HYPERLINK",
+      "Label": "HYPERLINK",
+      "CategoryId": "TEXT",
+      "Description": "Creates a hyperlink",
+      "ExampleString": "HYPERLINK(url, friendly_name [, target])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "IF",
+      "Name": "IF",
+      "Label": "IF",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks whether a condition is true, and returns one value if TRUE and another value if FALSE.",
+      "ExampleString": "IF(logical_test, value_if_true, value_if_false)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "IMAGE",
+      "Name": "IMAGE",
+      "Label": "IMAGE",
+      "CategoryId": "TEXT",
+      "Description": "Inserts an image",
+      "ExampleString": "IMAGE(image_url, alternate_text [, height, width])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "INCLUDE",
+      "Name": "INCLUDE",
+      "Label": "INCLUDE",
+      "CategoryId": "ADVANCED",
+      "Description": "Includes the selected source content with optional inputs expressed as query parameters",
+      "ExampleString": "INCLUDE(source, [inputs])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "INCLUDES",
+      "Name": "INCLUDES",
+      "Label": "INCLUDES",
+      "CategoryId": "TEXT",
+      "Description": "Returns true if any selected multi-select picklist value equals the text literal. CONSTRAINT: Use only with multi-select picklist fields. For standard picklists, use ISPICKVAL().",
+      "ExampleString": "INCLUDES(multiselect_picklist_field, text_literal)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "INITCAP",
+      "Name": "INITCAP",
+      "Label": "INITCAP",
+      "CategoryId": "TEXT",
+      "Description": "Return the text as lowercase with first character of each word made uppercase.",
+      "ExampleString": "INITCAP(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISBLANK",
+      "Name": "ISBLANK",
+      "Label": "ISBLANK",
+      "CategoryId": "LOGICAL",
+      "Description": "Returns true or false if an expression is blank. CONSTRAINT: Don't use directly on picklist or location fields. For picklists use ISBLANK(TEXT(picklist_field)); for locations use a component such as ISBLANK(BillingCity).",
+      "ExampleString": "ISBLANK(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISCHANGED",
+      "Name": "ISCHANGED",
+      "Label": "ISCHANGED",
+      "CategoryId": "ADVANCED",
+      "Description": "Checks if the field's value is different from its prior value, and returns TRUE if the values differ. Otherwise, returns FALSE",
+      "ExampleString": "ISCHANGED(field)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISCLONE",
+      "Name": "ISCLONE",
+      "Label": "ISCLONE",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks if the record is a clone of another record, and returns TRUE if it is a clone. Otherwise, returns FALSE",
+      "ExampleString": "ISCLONE()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISNEW",
+      "Name": "ISNEW",
+      "Label": "ISNEW",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks if the record is new, and returns TRUE if it is new. Otherwise, returns FALSE",
+      "ExampleString": "ISNEW()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISNULL",
+      "Name": "ISNULL",
+      "Label": "ISNULL",
+      "CategoryId": "LOGICAL",
+      "Description": "Returns true or false if an expression is null. CONSTRAINT: Don't use directly on picklist or location fields. For picklists use ISBLANK(TEXT(picklist_field)); for locations use a component such as ISBLANK(BillingCity).",
+      "ExampleString": "ISNULL(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISNUMBER",
+      "Name": "ISNUMBER",
+      "Label": "ISNUMBER",
+      "CategoryId": "LOGICAL",
+      "Description": "Returns TRUE if the text value is a number. Otherwise, it returns FALSE.",
+      "ExampleString": "ISNUMBER(Text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISOWEEK",
+      "Name": "ISOWEEK",
+      "Label": "ISOWEEK",
+      "CategoryId": "DATE_TIME",
+      "Description": "Return the ISO 8601 week number for the given date (from 1-53) so that the first week starts on monday.",
+      "ExampleString": "ISOWEEK(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISOYEAR",
+      "Name": "ISOYEAR",
+      "Label": "ISOYEAR",
+      "CategoryId": "DATE_TIME",
+      "Description": "Return the ISO 8601 week-numbering 4-digit year for the given date so that the first day is a monday.",
+      "ExampleString": "ISOYEAR(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ISPICKVAL",
+      "Name": "ISPICKVAL",
+      "Label": "ISPICKVAL",
+      "CategoryId": "TEXT",
+      "Description": "Returns true if a picklist value equals a string literal. REQUIREMENT: Use only this for picklist equality\u2014not '=' or '=='. Works only for picklist fields.",
+      "ExampleString": "ISPICKVAL(picklist_field, text_literal)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "JSENCODE",
+      "Name": "JSENCODE",
+      "Label": "JSENCODE",
+      "CategoryId": "TEXT",
+      "Description": "Encodes text and merge field values for use in JavaScript",
+      "ExampleString": "JSENCODE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "JSINHTMLENCODE",
+      "Name": "JSINHTMLENCODE",
+      "Label": "JSINHTMLENCODE",
+      "CategoryId": "TEXT",
+      "Description": "Encodes text and merge field values for use in JavaScript within HTML tags",
+      "ExampleString": "JSINHTMLENCODE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "JUNCTIONIDLIST",
+      "Name": "JUNCTIONIDLIST",
+      "Label": "JUNCTIONIDLIST",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns a JunctionIDList based on the provided IDs. You can enter IDs only.",
+      "ExampleString": "JUNCTIONIDLIST(id,id,...)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LEFT",
+      "Name": "LEFT",
+      "Label": "LEFT",
+      "CategoryId": "TEXT",
+      "Description": "Returns the specified number of characters from the start of a text string. CONSTRAINT: Not supported on picklist or location fields. Use TEXT(picklist) or specific address fields.",
+      "ExampleString": "LEFT(text, num_chars)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LEN",
+      "Name": "LEN",
+      "Label": "LEN",
+      "CategoryId": "TEXT",
+      "Description": "Returns the number of characters in a text string. CONSTRAINT: Not supported on picklist or location fields. Use TEXT(picklist) or specific address fields.",
+      "ExampleString": "LEN(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LINKTO",
+      "Name": "LINKTO",
+      "Label": "LINKTO",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns the HTML link element for the selected target with optional inputs expressed as query parameters",
+      "ExampleString": "LINKTO(label, target, id, [inputs], [no override])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LN",
+      "Name": "LN",
+      "Label": "LN",
+      "CategoryId": "MATH",
+      "Description": "Returns the natural logarithm of a number",
+      "ExampleString": "LN(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LOG",
+      "Name": "LOG",
+      "Label": "LOG",
+      "CategoryId": "MATH",
+      "Description": "Returns the base 10 logarithm of n",
+      "ExampleString": "LOG(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LOWER",
+      "Name": "LOWER",
+      "Label": "LOWER",
+      "CategoryId": "TEXT",
+      "Description": "Converts all letters in the value to lowercase",
+      "ExampleString": "LOWER(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LPAD",
+      "Name": "LPAD",
+      "Label": "LPAD",
+      "CategoryId": "TEXT",
+      "Description": "Pad the left side of the value with spaces or the optional pad string so that the length is padded_length",
+      "ExampleString": "LPAD(text, padded_length [, pad_string])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MAX",
+      "Name": "MAX",
+      "Label": "MAX",
+      "CategoryId": "MATH",
+      "Description": "Returns the greatest of all the arguments",
+      "ExampleString": "MAX(number,number,...)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MCEILING",
+      "Name": "MCEILING",
+      "Label": "MCEILING",
+      "CategoryId": "MATH",
+      "Description": "Rounds a number up to the nearest integer, towards zero if negative",
+      "ExampleString": "MCEILING(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MESSAGINGFORMATDATETIME",
+      "Name": "MESSAGINGFORMATDATETIME",
+      "Label": "MESSAGINGFORMATDATETIME",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns the datetime string for a timezone based on the format. Timezone and format are optional.",
+      "ExampleString": "MESSAGINGFORMATDATETIME(dateTime, timezone, format)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MESSAGINGIMAGE",
+      "Name": "MESSAGINGIMAGE",
+      "Label": "MESSAGINGIMAGE",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns an image reference to a URL image to be rendered in a conversation message.",
+      "ExampleString": "MESSAGINGIMAGE(imageSrc, mimeType)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MESSAGINGURLFOR",
+      "Name": "MESSAGINGURLFOR",
+      "Label": "MESSAGINGURLFOR",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns a public URL if available, for a record to be rendered in a conversation message template formula.",
+      "ExampleString": "MESSAGINGURLFOR(id)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MFLOOR",
+      "Name": "MFLOOR",
+      "Label": "MFLOOR",
+      "CategoryId": "MATH",
+      "Description": "Rounds a number down to the nearest integer, away from zero if negative",
+      "ExampleString": "MFLOOR(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MID",
+      "Name": "MID",
+      "Label": "MID",
+      "CategoryId": "TEXT",
+      "Description": "Returns characters from the middle of a text string from a start position and length. CONSTRAINT: Don't use on picklist or location fields. Use TEXT(picklist) or specific address components.",
+      "ExampleString": "MID(text, start_num, num_chars)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MILLISECOND",
+      "Name": "MILLISECOND",
+      "Label": "MILLISECOND",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns millisecond of day",
+      "ExampleString": "MILLISECOND(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MIN",
+      "Name": "MIN",
+      "Label": "MIN",
+      "CategoryId": "MATH",
+      "Description": "Returns the least of all the arguments",
+      "ExampleString": "MIN(number,number,...)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MINUTE",
+      "Name": "MINUTE",
+      "Label": "MINUTE",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns minute of day",
+      "ExampleString": "MINUTE(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MOD",
+      "Name": "MOD",
+      "Label": "MOD",
+      "CategoryId": "MATH",
+      "Description": "Returns the remainder after a number is divided by a divisor",
+      "ExampleString": "MOD(number,divisor)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MONTH",
+      "Name": "MONTH",
+      "Label": "MONTH",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the month (1\u201312). CONSTRAINT: Use only with date fields. Convert datetime fields using DATEVALUE() first.",
+      "ExampleString": "MONTH(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "NOT",
+      "Name": "NOT",
+      "Label": "NOT",
+      "CategoryId": "LOGICAL",
+      "Description": "Changes FALSE to TRUE or TRUE to FALSE",
+      "ExampleString": "NOT(logical)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "NOW",
+      "Name": "NOW",
+      "Label": "NOW",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns a datetime representing the current moment",
+      "ExampleString": "NOW()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "NULLVALUE",
+      "Name": "NULLVALUE",
+      "Label": "NULLVALUE",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks whether expression is null and returns substitute_expression if it is null. If expression is not null, returns the original expression value.",
+      "ExampleString": "NULLVALUE(expression, substitute_expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "OR",
+      "Name": "OR",
+      "Label": "OR",
+      "CategoryId": "LOGICAL",
+      "Description": "Checks whether any of the arguments are true and returns TRUE or FALSE. Returns FALSE only if all arguments are false",
+      "ExampleString": "OR(logical1,logical2,...)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PARENTGROUPVAL",
+      "Name": "PARENTGROUPVAL",
+      "Label": "PARENTGROUPVAL",
+      "CategoryId": "REPORT_SUMMARIES",
+      "Description": "Calculates the value of a summary field for a specified grouping level higher than the formula display level.",
+      "ExampleString": "PARENTGROUPVAL(summary_field, grouping_level)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PI",
+      "Name": "PI",
+      "Label": "PI",
+      "CategoryId": "MATH",
+      "Description": "Returns pi",
+      "ExampleString": "PI()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PICKLISTCOUNT",
+      "Name": "PICKLISTCOUNT",
+      "Label": "PICKLISTCOUNT",
+      "CategoryId": "TEXT",
+      "Description": "Returns the number of selected values in a multi-select picklist.",
+      "ExampleString": "PICKLISTCOUNT(multiselect_picklist_field)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PREVGROUPVAL",
+      "Name": "PREVGROUPVAL",
+      "Label": "PREVGROUPVAL",
+      "CategoryId": "REPORT_SUMMARIES",
+      "Description": "Gets the value of a summary field from the previous grouping (1 increment back by default) at the specified grouping level. Returns null if no previous grouping.",
+      "ExampleString": "PREVGROUPVAL(summary_field, grouping_level [, increment])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "PRIORVALUE",
+      "Name": "PRIORVALUE",
+      "Label": "PRIORVALUE",
+      "CategoryId": "LOGICAL",
+      "Description": "Returns the previous value for the field",
+      "ExampleString": "PRIORVALUE(field)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "REGEX",
+      "Name": "REGEX",
+      "Label": "REGEX",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns TRUE if Text matches the regular expression RegEx_Text. Otherwise, it returns FALSE.",
+      "ExampleString": "REGEX(Text, RegEx_Text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "REQUIRESCRIPT",
+      "Name": "REQUIRESCRIPT",
+      "Label": "REQUIRESCRIPT",
+      "CategoryId": "ADVANCED",
+      "Description": "Creates html script element that references the external script identified by URL",
+      "ExampleString": "REQUIRESCRIPT(url)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "REVERSE",
+      "Name": "REVERSE",
+      "Label": "REVERSE",
+      "CategoryId": "TEXT",
+      "Description": "Returns the text string in reverse order",
+      "ExampleString": "REVERSE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "RIGHT",
+      "Name": "RIGHT",
+      "Label": "RIGHT",
+      "CategoryId": "TEXT",
+      "Description": "Returns the specified number of characters from the end of a text string. CONSTRAINT: Not supported on picklist or location fields. Use TEXT(picklist) or specific address fields.",
+      "ExampleString": "RIGHT(text, num_chars)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ROUND",
+      "Name": "ROUND",
+      "Label": "ROUND",
+      "CategoryId": "MATH",
+      "Description": "Rounds a number to a specified number of digits",
+      "ExampleString": "ROUND(number,num_digits)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "RPAD",
+      "Name": "RPAD",
+      "Label": "RPAD",
+      "CategoryId": "TEXT",
+      "Description": "Pad the right side of the value with spaces or the optional pad string so that the length is padded_length",
+      "ExampleString": "RPAD(text, padded_length [, pad_string])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SECOND",
+      "Name": "SECOND",
+      "Label": "SECOND",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns second of day",
+      "ExampleString": "SECOND(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SIN",
+      "Name": "SIN",
+      "Label": "SIN",
+      "CategoryId": "MATH",
+      "Description": "Returns the sine of the number, where the number given in radians",
+      "ExampleString": "SIN(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SQRT",
+      "Name": "SQRT",
+      "Label": "SQRT",
+      "CategoryId": "MATH",
+      "Description": "Returns the positive square root of a number",
+      "ExampleString": "SQRT(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "SUBSTITUTE",
+      "Name": "SUBSTITUTE",
+      "Label": "SUBSTITUTE",
+      "CategoryId": "TEXT",
+      "Description": "Substitutes new_text for old_text in a text string. Use SUBSTITUTE when you want to replace specific text in a text string",
+      "ExampleString": "SUBSTITUTE(text, old_text, new_text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TAN",
+      "Name": "TAN",
+      "Label": "TAN",
+      "CategoryId": "MATH",
+      "Description": "Returns the tangent of the number, where the number given in radians",
+      "ExampleString": "TAN(number)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TEXT",
+      "Name": "TEXT",
+      "Label": "TEXT",
+      "CategoryId": "TEXT",
+      "Description": "CConverts a value to text. ERROR: Don't use on fields that are already text. REQUIRED: Wrap picklist fields in TEXT() before using in string functions such as CONTAINS().",
+      "ExampleString": "TEXT(value)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TIMENOW",
+      "Name": "TIMENOW",
+      "Label": "TIMENOW",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns a time representing the current moment",
+      "ExampleString": "TIMENOW()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TIMEVALUE",
+      "Name": "TIMEVALUE",
+      "Label": "TIMEVALUE",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns a time",
+      "ExampleString": "TIMEVALUE(expression)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TODAY",
+      "Name": "TODAY",
+      "Label": "TODAY",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the current date",
+      "ExampleString": "TODAY()"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TRIM",
+      "Name": "TRIM",
+      "Label": "TRIM",
+      "CategoryId": "TEXT",
+      "Description": "Removes all spaces from a text string except for single spaces between words",
+      "ExampleString": "TRIM(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TRUNC",
+      "Name": "TRUNC",
+      "Label": "TRUNC",
+      "CategoryId": "MATH",
+      "Description": "Truncates a number to a specified number of digits",
+      "ExampleString": "TRUNC(number,num_digits)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "UNIXTIMESTAMP",
+      "Name": "UNIXTIMESTAMP",
+      "Label": "UNIXTIMESTAMP",
+      "CategoryId": "DATE_TIME",
+      "Description": "Return the number of seconds since 1 Jan 1970 for the given date, or number of seconds in the day for a time.",
+      "ExampleString": "UNIXTIMESTAMP(date/time)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "UPPER",
+      "Name": "UPPER",
+      "Label": "UPPER",
+      "CategoryId": "TEXT",
+      "Description": "Converts all letters in the value to uppercase",
+      "ExampleString": "UPPER(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "URLENCODE",
+      "Name": "URLENCODE",
+      "Label": "URLENCODE",
+      "CategoryId": "TEXT",
+      "Description": "Encodes text and merge field values for use in URLs",
+      "ExampleString": "URLENCODE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "URLFOR",
+      "Name": "URLFOR",
+      "Label": "URLFOR",
+      "CategoryId": "ADVANCED",
+      "Description": "Returns the URL for the selected target with optional inputs expressed as query parameters",
+      "ExampleString": "URLFOR(target, id, [inputs], [no override])"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "VALUE",
+      "Name": "VALUE",
+      "Label": "VALUE",
+      "CategoryId": "TEXT",
+      "Description": "Converts a text string that represents a number to a number. CONSTRAINT: Use only with text fields. ERROR: Don't use on number, picklist (convert to text first), or location fields.",
+      "ExampleString": "VALUE(text)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "VLOOKUP",
+      "Name": "VLOOKUP",
+      "Label": "VLOOKUP",
+      "CategoryId": "ADVANCED",
+      "Description": "Searches an object for a record where the specified field matches the specified lookup_value. If a match is found, returns another specified field value.",
+      "ExampleString": "VLOOKUP(field_to_return, field_on_lookup_object, lookup_value)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "WEEKDAY",
+      "Name": "WEEKDAY",
+      "Label": "WEEKDAY",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the day of the week. IMPORTANT: 1=Sunday through 7=Saturday. CONSTRAINT: Use only with date fields. Datetime fields require DATEVALUE().",
+      "ExampleString": "WEEKDAY(date)"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "YEAR",
+      "Name": "YEAR",
+      "Label": "YEAR",
+      "CategoryId": "DATE_TIME",
+      "Description": "Returns the year (1900\u20139999). CONSTRAINT: Use only with date fields. Convert datetime fields using DATEVALUE() first.",
+      "ExampleString": "YEAR(date)"
+    }
+  ]
+}

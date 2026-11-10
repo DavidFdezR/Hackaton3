@@ -1,0 +1,81 @@
+{
+  "sobject": "Group",
+  "count": 5,
+  "records": [
+    {
+      "Id": "00GO500000MqMW1MAN",
+      "Name": null,
+      "DeveloperName": "AllInternalUsers",
+      "RelatedId": null,
+      "Type": "Organization",
+      "OwnerId": "00DO500000uR89LMAS",
+      "DoesIncludeBosses": true,
+      "CreatedDate": "2026-11-09T16:42:23.000+0000",
+      "CreatedById": "005O500000neorXIAQ",
+      "LastModifiedDate": "2026-11-09T16:42:23.000+0000",
+      "LastModifiedById": "005O500000neorXIAQ",
+      "SystemModstamp": "2026-11-09T16:42:23.000+0000",
+      "Description": null
+    },
+    {
+      "Id": "00GO500000MqtWoMAJ",
+      "Name": "Content Admin",
+      "DeveloperName": "MC_0ZuO5000000SlVRKA0_0aJO5000002JPkjMAG",
+      "RelatedId": null,
+      "Type": "ManagedContentSpaceRole",
+      "OwnerId": "00DO500000uR89LMAS",
+      "DoesIncludeBosses": false,
+      "CreatedDate": "2026-11-09T19:49:39.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T19:49:39.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T19:49:39.000+0000",
+      "Description": null
+    },
+    {
+      "Id": "00GO500000MqtWpMAJ",
+      "Name": "Content Manager",
+      "DeveloperName": "MC_0ZuO5000000SlVRKA0_0aJO5000002JPkkMAG",
+      "RelatedId": null,
+      "Type": "ManagedContentSpaceRole",
+      "OwnerId": "00DO500000uR89LMAS",
+      "DoesIncludeBosses": false,
+      "CreatedDate": "2026-11-09T19:49:39.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T19:49:39.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T19:49:39.000+0000",
+      "Description": null
+    },
+    {
+      "Id": "00GO500000MqtWqMAJ",
+      "Name": "Content Author",
+      "DeveloperName": "MC_0ZuO5000000SlVRKA0_0aJO5000002JPrBMAW",
+      "RelatedId": null,
+      "Type": "ManagedContentSpaceRole",
+      "OwnerId": "00DO500000uR89LMAS",
+      "DoesIncludeBosses": false,
+      "CreatedDate": "2026-11-09T19:49:39.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T19:49:39.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T19:49:39.000+0000",
+      "Description": null
+    },
+    {
+      "Id": "00GO500000MqtWrMAJ",
+      "Name": "All Roles Group 0ZuO5000000SlVR",
+      "DeveloperName": "MC_0ZuO5000000SlVRKA0",
+      "RelatedId": null,
+      "Type": "ManagedContentSpaceRole",
+      "OwnerId": "00DO500000uR89LMAS",
+      "DoesIncludeBosses": false,
+      "CreatedDate": "2026-11-09T19:49:39.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T19:49:39.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T19:49:39.000+0000",
+      "Description": null
+    }
+  ]
+}

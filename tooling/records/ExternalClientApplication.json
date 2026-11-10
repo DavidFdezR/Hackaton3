@@ -1,0 +1,29 @@
+{
+  "sobject": "ExternalClientApplication",
+  "count": 1,
+  "records": [
+    {
+      "Id": "0xIO5000000BDoLMAW",
+      "IsDeleted": false,
+      "DeveloperName": "ECA_003",
+      "Language": "en_US",
+      "MasterLabel": "ECA_003",
+      "NamespacePrefix": null,
+      "CreatedDate": "2026-11-10T07:29:00.000+0000",
+      "CreatedById": "005O500000neorXIAQ",
+      "LastModifiedDate": "2026-11-10T07:29:49.000+0000",
+      "LastModifiedById": "005O500000neorXIAQ",
+      "SystemModstamp": "2026-11-10T07:29:49.000+0000",
+      "ContactEmail": "[REDACTED]",
+      "ContactPhone": null,
+      "DistributionState": "Local",
+      "ManagedType": null,
+      "OrgScopedExternalApp": "00DO500000uR89L:ECA_003",
+      "LogoUrl": null,
+      "InfoUrl": null,
+      "IconUrl": null,
+      "Description": null,
+      "Version": null
+    }
+  ]
+}

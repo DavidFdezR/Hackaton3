@@ -1,0 +1,2656 @@
+[
+  {
+    "name": "AIApplication",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AIApplicationConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AIReplyRecommendationsSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: AIReplyRecommendationsSettings in this organization"
+  },
+  {
+    "name": "AccessControlPolicy",
+    "count": 2,
+    "status": 200
+  },
+  {
+    "name": "AccountIntelligenceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AccountSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ActionLauncherItemDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ActionsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ActivitiesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AddressSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AdjustmentsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Ai4mSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AnalyticsInteropMigrDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AnalyticsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AnimationRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexClass",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexClassMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexCodeCoverage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexCodeCoverageAggregate",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexComponent",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexComponentMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexDebuggerSession",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexEmailNotification",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexExecutionOverlayAction",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexExecutionOverlayResult",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexLog",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexOrgWideCoverage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexPage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexPageInfo",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexPageMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ApexTestQueueItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexTestResult",
+    "count": 210,
+    "status": 200
+  },
+  {
+    "name": "ApexTestResultLimits",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexTestRunResult",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexTestSuite",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexTrigger",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApexTriggerMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApiNamedQuery",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ApiNamedQueryParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AppAnalyticsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AppExperienceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "AssignmentRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AsyncApexJob",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AuraDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AuraDefinitionBundle",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AuraDefinitionChange",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AuthorizedEmailDomain",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AutoResponseRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "AutomatedContactsSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: AutomatedContactsSettings in this organization"
+  },
+  {
+    "name": "BlockchainSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "BrandingSet",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "BrandingSetProperty",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "BriefcaseDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "BusinessHoursEntry",
+    "count": null,
+    "status": 400,
+    "error": "sObject type &#39;BusinessHours&#39; is not supported."
+  },
+  {
+    "name": "BusinessHoursSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "BusinessProcess",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CampaignSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CaseSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Certificate",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ChannelLayout",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ChatterAnswersSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: ChatterAnswersSettings in this organization"
+  },
+  {
+    "name": "ChatterEmailsMDSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ChatterSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CleanDataService",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CleanRule",
+    "count": 11,
+    "status": 200
+  },
+  {
+    "name": "CodeBuilderSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ColorDefinition",
+    "count": null,
+    "status": 400,
+    "error": "ColorDefinition: a filter on a reified column is required [TabDefinitionId,DurableId]"
+  },
+  {
+    "name": "CommerceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CommonEventSubscription",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CommsServiceConsoleSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: CommsServiceConsoleSettings in this organization"
+  },
+  {
+    "name": "CommunitiesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CompactLayout",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CompactLayoutInfo",
+    "count": null,
+    "status": 400,
+    "error": "CompactLayoutInfo: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "CompactLayoutItemInfo",
+    "count": null,
+    "status": 400,
+    "error": "CompactLayoutItemInfo: a filter on a reified column is required [CompactLayoutInfoId,DurableId,DurableId]"
+  },
+  {
+    "name": "CompanySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ConnectedAppSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ConnectedApplication",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ContainerAsyncRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ContentAsset",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ContentSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ContractSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ConversationalIntelligenceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CountriesAndStates",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Country",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CspTrustedSite",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CurrencySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CustomAddressFieldSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CustomApplication",
+    "count": 20,
+    "status": 200
+  },
+  {
+    "name": "CustomField",
+    "count": 17,
+    "status": 200
+  },
+  {
+    "name": "CustomFieldMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomHelpMenuSection",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomHttpHeader",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomNotifActionDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomNotificationActionGroup",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomNotificationType",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "CustomObject",
+    "count": 5,
+    "status": 200
+  },
+  {
+    "name": "CustomTab",
+    "count": 2,
+    "status": 200
+  },
+  {
+    "name": "CustomerDataPlatformSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "CustomizablePropensityScoringSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DashboardMobileSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DataAssessmentConfigItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DataDotComEntitySetting",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DataDotComSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DataType",
+    "count": 4809,
+    "status": 200
+  },
+  {
+    "name": "DebugLevel",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DelegateGroup",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DelegateGroupGrant",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DelegateGroupMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DeployMessage",
+    "count": 667,
+    "status": 200
+  },
+  {
+    "name": "DeployNotification",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DeployRequest",
+    "count": 37,
+    "status": 200
+  },
+  {
+    "name": "DeployTestResult",
+    "count": 203,
+    "status": 200
+  },
+  {
+    "name": "DeploymentSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DevHubSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DiscoverySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Document",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DocumentChecklistSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DomainProvision",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DynamicFormsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "DynamicGroup",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "DynamicGroupCriterion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EACSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EinsteinAgentSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: EinsteinAgentSettings in this organization"
+  },
+  {
+    "name": "EinsteinAssistantSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: EinsteinAssistantSettings in this organization"
+  },
+  {
+    "name": "EinsteinDealInsightsSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: EinsteinDealInsightsSettings in this organization"
+  },
+  {
+    "name": "EinsteinDocumentCaptureSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmailAdministrationSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmailIntegrationSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmailTemplate",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmailTemplateSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmailToCaseRoutingAddress",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getRoutingAddresses"
+  },
+  {
+    "name": "EmailToCaseSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceAppointmentSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceBranding",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceCustomComponent",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceCustomLabel",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceCustomization",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceFlow",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceFlowConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceLayout",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceLayoutRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceMenuItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceMenuSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmbeddedServiceResource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EmployeeFieldAccessSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EmployeeUserSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EncryptionKeySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EngagementMessagingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EnhancedNotesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EnrichedField",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EntitlementCondition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EntitlementCriteria",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EntitlementSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EntityDefinition",
+    "count": 2390,
+    "status": 200
+  },
+  {
+    "name": "EntityLimit",
+    "count": null,
+    "status": 400,
+    "error": "EntityLimit: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "EntityParticle",
+    "count": null,
+    "status": 400,
+    "error": "EntityParticle: a filter on a reified column is required [EntityDefinitionId,FieldDefinitionId,DurableId]"
+  },
+  {
+    "name": "EssentialsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "EventRelayConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "EventSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExternalAuthIdentityProvider",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalAuthIdentityProviderParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalClientAppSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExternalClientApplication",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExternalCredential",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalCredentialParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalDataSource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalDataSrcDescriptor",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalServiceRegistration",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExternalString",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppAndroidAttestConfig",
+    "count": null,
+    "status": 400,
+    "error": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppAndroidPushConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppAppleAttestConfig",
+    "count": null,
+    "status": 400,
+    "error": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppApplePushConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppAttestPolicy",
+    "count": null,
+    "status": 400,
+    "error": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppAttestSettings",
+    "count": null,
+    "status": 400,
+    "error": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppMobPlcyConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppMobileSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppNotifSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppNotifType",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppOauthIpRange",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppOauthPlcyAttr",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppOauthPlcyCnfg",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppOauthSetAttr",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppOauthSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppPlcyCnfg",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppPushPolicyConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppPushSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ExtlClntAppSamlPlcyCnfg",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FTestSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FeedItemSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FieldDefinition",
+    "count": null,
+    "status": 400,
+    "error": "FieldDefinition: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "FieldMapping",
+    "count": 22,
+    "status": 200
+  },
+  {
+    "name": "FieldMappingConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FieldMappingConfigItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FieldMappingField",
+    "count": 88,
+    "status": 200
+  },
+  {
+    "name": "FieldMappingRow",
+    "count": 88,
+    "status": 200
+  },
+  {
+    "name": "FieldRestrictionRule",
+    "count": 2,
+    "status": 200
+  },
+  {
+    "name": "FieldServiceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FieldSet",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FileTypeDispositionAssignmentBean",
+    "count": 26,
+    "status": 200
+  },
+  {
+    "name": "FileUploadAndDownloadSecuritySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FilesConnectSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FindSimilarOppFilter",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FlexiPage",
+    "count": 7,
+    "status": 200
+  },
+  {
+    "name": "Flow",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FlowCategory",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowDefinition",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FlowElementTestCoverage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FlowTest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestCoverage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestDataSource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestFlowVersion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestResult",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestUniquenessConstraint",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "FlowTestUniquenessConstraintItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ForecastRangeSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ForecastingDisplayedFamilySettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ForecastingObjectListSelectedSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: ForecastingObjectListSettings in this organization"
+  },
+  {
+    "name": "ForecastingObjectListSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: ForecastingObjectListSettings in this organization"
+  },
+  {
+    "name": "ForecastingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ForecastingTypeSettings",
+    "count": 12,
+    "status": 200
+  },
+  {
+    "name": "FormulaFunction",
+    "count": 108,
+    "status": 200
+  },
+  {
+    "name": "FormulaFunctionAllowedType",
+    "count": 614,
+    "status": 200
+  },
+  {
+    "name": "FormulaFunctionCategory",
+    "count": 6,
+    "status": 200
+  },
+  {
+    "name": "FormulaOperator",
+    "count": 16,
+    "status": 200
+  },
+  {
+    "name": "FormulaSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "FormulaVariable",
+    "count": null,
+    "status": 400,
+    "error": "Getting all Formula Variables are unsupported"
+  },
+  {
+    "name": "GlobalValueSet",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "GoogleAppsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Group",
+    "count": 5,
+    "status": 200
+  },
+  {
+    "name": "GtwyProvPaymentMethodType",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "HighVelocitySalesSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: HighVelocitySalesSettings in this organization"
+  },
+  {
+    "name": "HomePageComponent",
+    "count": 14,
+    "status": 200
+  },
+  {
+    "name": "HomePageLayout",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "IDEPerspective",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IDEWorkspace",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IPAddressRange",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IconDefinition",
+    "count": null,
+    "status": 400,
+    "error": "IconDefinition: a filter on a reified column is required [TabDefinitionId,DurableId]"
+  },
+  {
+    "name": "IdeasSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "InboundNetworkConnProperty",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InboundNetworkConnection",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IncidentMgmtSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Index",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IndexField",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "IndustriesAutomotiveSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: IndustriesAutomotiveSettings in this organization"
+  },
+  {
+    "name": "IndustriesEinsteinFeatureSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "IndustriesManufacturingSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: IndustriesManufacturingSettings in this organization"
+  },
+  {
+    "name": "IndustriesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "InsEmailRoutingAddress",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InstalledSubscriberPackage",
+    "count": null,
+    "status": 500,
+    "error": "An unexpected error occurred. Please include this ErrorId if you contact support: 277219550-72289 (-629812752)"
+  },
+  {
+    "name": "InstalledSubscriberPackageVersion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InteractionLayoutSet",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InteractionValueMapDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InteractionValueMapEntry",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InventorySettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: InventorySettings in this organization"
+  },
+  {
+    "name": "InvocableActionExt",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InvocableActionExtTgt",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InvocableActionExtTgtAttr",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "InvocableActionSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "IpRange",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeAnswerSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeCaseField",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeCaseFieldsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeCaseSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeGenerationSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeLanguage",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeLanguageSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeSitesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeSuggestedArticlesSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeWorkOrderField",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeWorkOrderFieldsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "KnowledgeWorkOrderLineItemField",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeWorkOrderLineItemFieldsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "LanguageSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Layout",
+    "count": 268,
+    "status": 200
+  },
+  {
+    "name": "LeadConfigSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "LeadConvertSettings",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LicensingSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: LicensingSettings in this organization"
+  },
+  {
+    "name": "LightningBolt",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningComponentBundle",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningComponentResource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningExperienceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "LightningExperienceTheme",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningMessageChannel",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningMessageField",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningOnboardingConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningOutApp",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningOutAppComponent",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningOutAppDeployment",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LightningOutAppHost",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LiveAgentSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "LocalizedValue",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "LookupFilter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MLDataDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MLFilter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MLPredictionDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MLRecommendationDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MacroSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "MailMergeSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ManagedContentNodeType",
+    "count": 12,
+    "status": 200
+  },
+  {
+    "name": "ManagedContentType",
+    "count": 3,
+    "status": 200
+  },
+  {
+    "name": "ManagedEventSubscription",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerAccess",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerPromptDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerResourceDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerToolApiDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "McpServerToolDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MeetingsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "MenuItem",
+    "count": null,
+    "status": 400,
+    "error": "Unknown MenuType: null"
+  },
+  {
+    "name": "MetadataComponentDependency",
+    "count": null,
+    "status": 400,
+    "error": "The COUNT() function is not supported for MetadataComponentDependency."
+  },
+  {
+    "name": "MetadataContainer",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MetadataContainerMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MetadataPackage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MetadataPackageVersion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MfgServiceConsoleSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: MfgServiceConsoleSettings in this organization"
+  },
+  {
+    "name": "MilestoneCompletionCondition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MilestoneCriteria",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MilestoneCriteriaCondition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MobileSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "MsgChannelAvailability",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MutingPermissionSet",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "MyDomainSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "NameSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "NamedCredential",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "NamedCredentialParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "NetworkAccess",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "NotificationsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OauthOidcSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ObjectLinkingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ObjectSearchSetting",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getSearchSettingsByObject"
+  },
+  {
+    "name": "OmniChannelPricingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OperationLog",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "OpportunityListFieldsLabelMapping",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getOpportunityListFieldsLabelMappings"
+  },
+  {
+    "name": "OpportunityListFieldsSelectedSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OpportunityListFieldsUnselectedSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OpportunityScoreSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: OpportunityScoreSettings in this organization"
+  },
+  {
+    "name": "OpportunitySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OrderManagementSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OrderSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OrgDomainLog",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "OrgSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "OutboundNetworkConnProperty",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "OutboundNetworkConnection",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "OwnerChangeOptionInfo",
+    "count": null,
+    "status": 400,
+    "error": "OwnerChangeOptionInfo: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "Package2Member",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PackageConversion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PackageInstallRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PackageUploadRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PackageVersionInstallRequestError",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PackageVersionUninstallRequestError",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PardotEinsteinSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PardotSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PartyDataModelSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PasswordPolicies",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PathAssistant",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PathAssistantSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PathAssistantStepInfo",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PathAssistantStepItem",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PaymentGatewayProvider",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PaymentsManagementEnabledSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PaymentsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PermissionDependency",
+    "count": 2075,
+    "status": 200
+  },
+  {
+    "name": "PermissionSet",
+    "count": 94,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetAssignment",
+    "count": 12,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetGroup",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetGroupComponent",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetLicCustObjDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetLicenseDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PermissionSetTabSetting",
+    "count": 84586,
+    "status": 200
+  },
+  {
+    "name": "PicklistSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PkgAuthOrgSbscrbTrustRela",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PkgVrfyAuthOrgTrustRela",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformCachePartition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformCachePartitionType",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformEncryptionSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PlatformEventChannel",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformEventChannelMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformEventMigration",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PlatformEventSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PlatformEventSubscriberConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PortalsSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PostTemplate",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PredictionBuilderSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "PreviewOrgInfo",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PrivacySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ProcessFlowMigration",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ProductSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Profile",
+    "count": 40,
+    "status": 200
+  },
+  {
+    "name": "ProfileLayout",
+    "count": 10183,
+    "status": 200
+  },
+  {
+    "name": "ProfileSearchCustomization",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "Prompt",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "PromptVersion",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "Publisher",
+    "count": 47,
+    "status": 200
+  },
+  {
+    "name": "QuickActionDefinition",
+    "count": 41,
+    "status": 200
+  },
+  {
+    "name": "QuickActionList",
+    "count": 23,
+    "status": 200
+  },
+  {
+    "name": "QuickActionListItem",
+    "count": 341,
+    "status": 200
+  },
+  {
+    "name": "QuickTextSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "QuotasSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "QuoteSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "RateLimitingNotification",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "RealTimeEvent",
+    "count": 41,
+    "status": 200
+  },
+  {
+    "name": "RealTimeEventSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "RecentlyViewed",
+    "count": 212,
+    "status": 200
+  },
+  {
+    "name": "RecommendationBuilderSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "RecommendationStrategy",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "RecordActionDeployment",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "RecordPageSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "RecordType",
+    "count": 4,
+    "status": 200
+  },
+  {
+    "name": "RelatedListColumnDefinition",
+    "count": null,
+    "status": 400,
+    "error": "RelatedListColumnDefinition: a filter on a reified column is required [RelatedListDefinitionId,DurableId]"
+  },
+  {
+    "name": "RelatedListDefinition",
+    "count": null,
+    "status": 400,
+    "error": "RelatedListDefinition: a filter on a reified column is required [ParentEntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "RelationshipDomain",
+    "count": null,
+    "status": 400,
+    "error": "RelationshipDomain: a filter on a reified column is required [ParentSobjectId,ChildSobjectId,FieldId,RelationshipInfoId,DurableId]"
+  },
+  {
+    "name": "RelationshipInfo",
+    "count": null,
+    "status": 400,
+    "error": "RelationshipInfo: a filter on a reified column is required [ChildSobjectId,FieldId,DurableId]"
+  },
+  {
+    "name": "ReleaseUpdate",
+    "count": 94,
+    "status": 200
+  },
+  {
+    "name": "ReleaseUpdateStep",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ReleaseUpdateStepLog",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "RemoteProxy",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "RestrictionRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "RetailExecutionSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SandboxSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SchedulingConsoleUserPref",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SchedulingObjective",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SchedulingObjectiveParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SchedulingRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SchedulingRuleParameter",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SchemaSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Scontrol",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchCustomRuleValue",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchCustomization",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchCustomizationRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchDataSource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchFieldCustomization",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchLayout",
+    "count": null,
+    "status": 400,
+    "error": "SearchLayout: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "SearchObjectCustomization",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SearchSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SearchSettingsByObject",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SecurityHealthCheck",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SecurityHealthCheckRisks",
+    "count": 48,
+    "status": 200
+  },
+  {
+    "name": "SecuritySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ServiceCloudVoiceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "ServiceOpPriorityConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "ServiceSetupAssistantSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SessionSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SetupNode",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SharingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SingleSignOnSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SiteDetail",
+    "count": null,
+    "status": 400,
+    "error": "SiteDetail: a filter on a reified column is required [DurableId]"
+  },
+  {
+    "name": "Skill",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SkillType",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SlackApp",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SlackAppTemplate",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SocialCustomerServiceSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: SocialCustomerServiceSettings in this organization"
+  },
+  {
+    "name": "SourceMember",
+    "count": 55,
+    "status": 200
+  },
+  {
+    "name": "SourceMemberDeployRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SourceTrackingSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SrvcMgmntEmailRoutgAddr",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SrvcMgmtCollabAppFldDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SrvcMgmtCollabAppObjDef",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SrvcMgmtObjCollabAppCnfg",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "StandardAction",
+    "count": null,
+    "status": 400,
+    "error": "StandardAction: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "StandardValueSet",
+    "count": null,
+    "status": 400,
+    "error": "StandardValueSet: a filter on a reified column is required [MasterLabel,DurableId]"
+  },
+  {
+    "name": "State",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "StaticDynamicValMapping",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "StaticResource",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SubscriberPackage",
+    "count": null,
+    "status": 400,
+    "error": "Implementation restriction: You can only perform queries of the form Id=&#39;&lt;some_value&gt;&#39;."
+  },
+  {
+    "name": "SubscriberPackageVersion",
+    "count": null,
+    "status": 400,
+    "error": "Implementation restriction: You can only perform queries of the form Id=&#39;&lt;some_value&gt;&#39;."
+  },
+  {
+    "name": "SubscriberPackageVersionInstallRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SubscriberPackageVersionUninstallRequest",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "SubscriptionManagementSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SurveySettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "SystemNotificationSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "TabDefinition",
+    "count": 284,
+    "status": 200
+  },
+  {
+    "name": "Territory2Settings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Territory2SettingsOpportunityFilter",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "Territory2SupportedObject",
+    "count": null,
+    "status": 400,
+    "error": "Unable to invoke method: getSupportedObjects"
+  },
+  {
+    "name": "TestSuiteMembership",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "TimeSheetTemplate",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "TimeSheetTemplateAssignment",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "TraceFlag",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "TrailheadSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "TransactionSecurityPolicy",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "TrialOrgSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "UIBundle",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "UiFormatSpecification",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "UiFormatSpecificationSet",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "UiFormulaCriterion",
+    "count": 20,
+    "status": 200
+  },
+  {
+    "name": "UiFormulaRule",
+    "count": 10,
+    "status": 200
+  },
+  {
+    "name": "UiPageDefinition",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "User",
+    "count": 9,
+    "status": 200
+  },
+  {
+    "name": "UserEngagementSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "UserEntityAccess",
+    "count": null,
+    "status": 400,
+    "error": "UserEntityAccess: a filter on a reified column is required [UserId,DurableId]"
+  },
+  {
+    "name": "UserFieldAccess",
+    "count": null,
+    "status": 400,
+    "error": "UserFieldAccess: a filter on a reified column is required [DurableId]"
+  },
+  {
+    "name": "UserInterfaceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "UserManagementSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "UserPreference",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "UserProvisioningConfig",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "UserRole",
+    "count": 18,
+    "status": 200
+  },
+  {
+    "name": "ValidationRule",
+    "count": 2,
+    "status": 200
+  },
+  {
+    "name": "ValidationRuleMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "VisualforceAccessMetrics",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "VoiceSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WarrantyLifecycleMgmtSettings",
+    "count": null,
+    "status": 400,
+    "error": "Cannot access: WarrantyLifecycleMgmtSettings in this organization"
+  },
+  {
+    "name": "WebLink",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WebToCaseSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WebToXSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WorkDotComSettings",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WorkflowAlert",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowAlertMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowFieldUpdate",
+    "count": 1,
+    "status": 200
+  },
+  {
+    "name": "WorkflowFieldUpdateMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowOutboundMessage",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowOutboundMessageMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowRule",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowRuleMember",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowTask",
+    "count": 0,
+    "status": 200
+  },
+  {
+    "name": "WorkflowTaskMember",
+    "count": 0,
+    "status": 200
+  }
+]

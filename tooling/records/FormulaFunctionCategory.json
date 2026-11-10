@@ -1,0 +1,42 @@
+{
+  "sobject": "FormulaFunctionCategory",
+  "count": 6,
+  "records": [
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "ADVANCED",
+      "Name": "ADVANCED",
+      "Label": "Advanced"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "DATE_TIME",
+      "Name": "DATE_TIME",
+      "Label": "Date & Time"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "LOGICAL",
+      "Name": "LOGICAL",
+      "Label": "Logical"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "MATH",
+      "Name": "MATH",
+      "Label": "Math"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "REPORT_SUMMARIES",
+      "Name": "REPORT_SUMMARIES",
+      "Label": "Summary"
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "TEXT",
+      "Name": "TEXT",
+      "Label": "Text"
+    }
+  ]
+}

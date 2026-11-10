@@ -1,0 +1,33 @@
+{
+  "sobject": "WebLink",
+  "count": 1,
+  "records": [
+    {
+      "Id": "00bO500000EuwNpIAJ",
+      "Name": "ViewCampaignInfluenceReport",
+      "Url": "/00O?rt=117&break0=CAN&scope=1&scopeid_lkid={!Campaign.Id}&scopeid={!Campaign_Name}&c=CAN&c=MR&c=PCS&c=CFN&c=RN&c=ON&c=OA&c=OS&c=OCD&c=AN&s=OA&duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&details=yes&format=t",
+      "EncodingKey": "UTF-8",
+      "LinkType": "url",
+      "OpenType": "newWindow",
+      "Height": 500,
+      "Width": 500,
+      "ShowsLocation": false,
+      "HasScrollbars": true,
+      "HasToolbar": false,
+      "HasMenubar": false,
+      "ShowsStatus": false,
+      "IsResizable": true,
+      "Position": "none",
+      "ScontrolId": null,
+      "MasterLabel": "View Campaign Influence Report",
+      "Description": null,
+      "DisplayType": "L",
+      "RequireRowSelection": false,
+      "NamespacePrefix": null,
+      "CreatedDate": "2026-11-09T16:42:23.000+0000",
+      "CreatedById": "005O500000neorXIAQ",
+      "LastModifiedDate": "2026-11-09T16:42:23.000+0000",
+      "LastModifiedById": "005O500000neorXIAQ"
+    }
+  ]
+}

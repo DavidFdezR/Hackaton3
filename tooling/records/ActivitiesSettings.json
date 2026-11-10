@@ -1,0 +1,36 @@
+{
+  "sobject": "ActivitiesSettings",
+  "count": 1,
+  "records": [
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9BY3Rpdml0aWVzU2V0dGluZ3M=",
+      "IsClickCreateEventsEnabled": false,
+      "IsGroupTasksEnabled": true,
+      "IsLogNoteEnabled": false,
+      "IsRecurringEventsEnabled": true,
+      "IsRecurringTasksEnabled": true,
+      "IsTimelineCompDateSortEnabled": false,
+      "ShowEventDetailsMultiUserCalendar": false,
+      "IsSidebarCalendarShortcutEnabled": false,
+      "AutoRelateEventAttendees": false,
+      "IsDragAndDropSchedulingEnabled": true,
+      "IsEmailTrackingEnabled": true,
+      "ShowHomePageHoverLinksForEvents": true,
+      "IsSimpleTaskCreateUiEnabled": true,
+      "IsUserListViewCalendarsEnabled": false,
+      "MeetingRequestsLogo": null,
+      "IsActivityRemindersEnabled": true,
+      "IsHideChildEventsPreferenceEnabled": false,
+      "ShowMyTasksHoverLinks": true,
+      "IsMultidayEventsEnabled": true,
+      "IsFlowTaskNotifsViaApexEnabled": false,
+      "IsRollUpActivToContactsAcctEnabled": true,
+      "IsCalendarHomeLwcEnabled": true,
+      "AllowUsersToRelateMultipleContactsToTasksAndEvents": false,
+      "ShowCustomLogoMeetingRequests": false,
+      "IsMlSingleClientProfileEnabled": false,
+      "IsListViewSchedulingEnabled": false
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "sobject": "MetadataComponentDependency",
+  "count": 34,
+  "records": [
+    {
+      "MetadataComponentId": "Account",
+      "MetadataComponentName": "Account",
+      "MetadataComponentType": "StandardEntity",
+      "RefMetadataComponentId": "0M0O5000006GPlNKAW",
+      "RefMetadataComponentName": "Demo_Service_Account_Page",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVZMA4",
+      "RefMetadataComponentName": "Amount",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVZMA4",
+      "RefMetadataComponentName": "Amount",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVaMAO",
+      "RefMetadataComponentName": "Approved",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVaMAO",
+      "RefMetadataComponentName": "Approved",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVbMAO",
+      "RefMetadataComponentName": "External_Key",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVbMAO",
+      "RefMetadataComponentName": "External_Key",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVcMAO",
+      "RefMetadataComponentName": "Notes",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVcMAO",
+      "RefMetadataComponentName": "Notes",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVdMAO",
+      "RefMetadataComponentName": "Priority",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVdMAO",
+      "RefMetadataComponentName": "Priority",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVeMAO",
+      "RefMetadataComponentName": "Reference",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVeMAO",
+      "RefMetadataComponentName": "Reference",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVfMAO",
+      "RefMetadataComponentName": "Review_Code",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVgMAO",
+      "RefMetadataComponentName": "Run_Key",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVgMAO",
+      "RefMetadataComponentName": "Run_Key",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS5IAJ",
+      "MetadataComponentName": "CH3 Absent Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVhMAO",
+      "RefMetadataComponentName": "Stage",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NyzS6IAJ",
+      "MetadataComponentName": "CH3 Present Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uYKVhMAO",
+      "RefMetadataComponentName": "Stage",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NzZzkIAF",
+      "MetadataComponentName": "Demo Account Sales",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uZaTNMA0",
+      "RefMetadataComponentName": "Demo_Priority",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NzZzlIAF",
+      "MetadataComponentName": "Demo Account Support",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uZaTNMA0",
+      "RefMetadataComponentName": "Demo_Priority",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NzZziIAF",
+      "MetadataComponentName": "Demo Review",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uZaTPMA0",
+      "RefMetadataComponentName": "Demo_Review_Status",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NzZzjIAF",
+      "MetadataComponentName": "Demo Review",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00NO500000uZaTQMA0",
+      "RefMetadataComponentName": "Demo_Review_Status",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "00hO500000NxEHmIAN",
+      "MetadataComponentName": "Campaign Layout",
+      "MetadataComponentType": "Layout",
+      "RefMetadataComponentId": "00bO500000EuwNpIAJ",
+      "RefMetadataComponentName": "View Campaign Influence Report",
+      "RefMetadataComponentType": "WebLink"
+    },
+    {
+      "MetadataComponentId": "02uO500000ANKmyIAH",
+      "MetadataComponentName": "Sales",
+      "MetadataComponentType": "CustomApplication",
+      "RefMetadataComponentId": "0M0O5000006FTKnKAO",
+      "RefMetadataComponentName": "LightningSales_UtilityBar",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "02uO500000ANKnAIAX",
+      "MetadataComponentName": "Advertising Inventory Calendar",
+      "MetadataComponentType": "CustomApplication",
+      "RefMetadataComponentId": "0M0O5000006FT6JKAW",
+      "RefMetadataComponentName": "AdvertisingInventoryCalendar_UtilityBar",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "02uO500000ANKnBIAX",
+      "MetadataComponentName": "Media Ad Sales Management",
+      "MetadataComponentType": "CustomApplication",
+      "RefMetadataComponentId": "0M0O5000006FT6KKAW",
+      "RefMetadataComponentName": "MediaAdSalesManagement_UtilityBar",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "02uO500000ANL7dIAH",
+      "MetadataComponentName": "Command Center",
+      "MetadataComponentType": "CustomApplication",
+      "RefMetadataComponentId": "0M0O5000006FTPdKAO",
+      "RefMetadataComponentName": "CommandCenterApp_UtilityBar",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "03dO5000004dDMTIA2",
+      "MetadataComponentName": "CH3_Approval_Active",
+      "MetadataComponentType": "ValidationRule",
+      "RefMetadataComponentId": "00NO500000uYKVaMAO",
+      "RefMetadataComponentName": "Approved",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "03dO5000004dDMTIA2",
+      "MetadataComponentName": "CH3_Approval_Active",
+      "MetadataComponentType": "ValidationRule",
+      "RefMetadataComponentId": "00NO500000uYKVhMAO",
+      "RefMetadataComponentName": "Stage",
+      "RefMetadataComponentType": "CustomField"
+    },
+    {
+      "MetadataComponentId": "0btO5000005TSj0IAG",
+      "MetadataComponentName": "0btO5000005TSj0IAG",
+      "MetadataComponentType": "PromptVersion",
+      "RefMetadataComponentId": "09DO5000007QhwbMAC",
+      "RefMetadataComponentName": "NewOpportunity",
+      "RefMetadataComponentType": "QuickAction"
+    },
+    {
+      "MetadataComponentId": "0lrO5000001E0ArIAK",
+      "MetadataComponentName": "Rule1bb692f0e95bbb0fcbfa487f1eb58e785e5a12fabed4832122e919b7d220af70",
+      "MetadataComponentType": "FieldRestrictionRule",
+      "RefMetadataComponentId": "0IXO50000069RC1OAM",
+      "RefMetadataComponentName": "PersonalInfo_EPIM",
+      "RefMetadataComponentType": "FieldSet"
+    },
+    {
+      "MetadataComponentId": "0lrO5000001E0AsIAK",
+      "MetadataComponentName": "Ruleeceed79d48cbd49d279d55f8dbcc3bdf3b94354a2fe7b5b93f7654cbc9df03aa",
+      "MetadataComponentType": "FieldRestrictionRule",
+      "RefMetadataComponentId": "0IXO50000069RC1OAM",
+      "RefMetadataComponentName": "PersonalInfo_EPIM",
+      "RefMetadataComponentType": "FieldSet"
+    },
+    {
+      "MetadataComponentId": "0M0O5000006GPlNKAW",
+      "MetadataComponentName": "Demo_Service_Account_Page",
+      "MetadataComponentType": "FlexiPage",
+      "RefMetadataComponentId": "flexipage:recordHomeSingleColTemplateDesktop",
+      "RefMetadataComponentName": "flexipage:recordHomeSingleColTemplateDesktop",
+      "RefMetadataComponentType": "FlexiPage"
+    },
+    {
+      "MetadataComponentId": "0M0O5000006GPlNKAW",
+      "MetadataComponentName": "Demo_Service_Account_Page",
+      "MetadataComponentType": "FlexiPage",
+      "RefMetadataComponentId": "flexipage:richText",
+      "RefMetadataComponentName": "flexipage:richText",
+      "RefMetadataComponentType": "FlexiPage"
+    }
+  ]
+}

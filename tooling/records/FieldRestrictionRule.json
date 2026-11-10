@@ -1,0 +1,47 @@
+{
+  "sobject": "FieldRestrictionRule",
+  "count": 2,
+  "records": [
+    {
+      "Id": "0lrO5000001E0ArIAK",
+      "DeveloperName": "Rule1bb692f0e95bbb0fcbfa487f1eb58e785e5a12fabed4832122e919b7d220af70",
+      "MasterLabel": "Rule1bb692f0e95bbb0fcbfa487f1eb58e785e5a12fabed4832122e919b7d220af70",
+      "IsDeleted": false,
+      "Language": "en_US",
+      "NamespacePrefix": null,
+      "ManageableState": "unmanaged",
+      "CreatedDate": "2026-11-09T16:42:23.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T16:42:23.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T16:42:23.000+0000",
+      "IsActive": true,
+      "TargetEntity": "User",
+      "Version": 0,
+      "Description": "Field Restriction Rule for Guest PersonalInfo_EPIM",
+      "EnforcementType": "FieldRestrict",
+      "ClassificationType": "FieldSet"
+    },
+    {
+      "Id": "0lrO5000001E0AsIAK",
+      "DeveloperName": "Ruleeceed79d48cbd49d279d55f8dbcc3bdf3b94354a2fe7b5b93f7654cbc9df03aa",
+      "MasterLabel": "Ruleeceed79d48cbd49d279d55f8dbcc3bdf3b94354a2fe7b5b93f7654cbc9df03aa",
+      "IsDeleted": false,
+      "Language": "en_US",
+      "NamespacePrefix": null,
+      "ManageableState": "unmanaged",
+      "CreatedDate": "2026-11-09T16:42:23.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T16:42:23.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "SystemModstamp": "2026-11-09T16:42:23.000+0000",
+      "IsActive": true,
+      "TargetEntity": "User",
+      "Version": 0,
+      "Description": "Field Restriction Rule for Portal PersonalInfo_EPIM",
+      "EnforcementType": "FieldRestrict",
+      "ClassificationType": "FieldSet"
+    }
+  ],
+  "note": "Some filter fields are rejected by the Tooling API query."
+}

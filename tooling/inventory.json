@@ -1,0 +1,2602 @@
+[
+  {
+    "name": "AIApplication",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AIApplicationConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AIReplyRecommendationsSettings",
+    "exported": false,
+    "reason": "Cannot access: AIReplyRecommendationsSettings in this organization"
+  },
+  {
+    "name": "AccessControlPolicy",
+    "exported": true,
+    "records": 2
+  },
+  {
+    "name": "AccountIntelligenceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AccountSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ActionLauncherItemDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ActionsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ActivitiesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AddressSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AdjustmentsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Ai4mSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AnalyticsInteropMigrDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AnalyticsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AnimationRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexClass",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexClassMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexCodeCoverage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexCodeCoverageAggregate",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexComponent",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexComponentMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexDebuggerSession",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexEmailNotification",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexExecutionOverlayAction",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexExecutionOverlayResult",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexLog",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexOrgWideCoverage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexPage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexPageInfo",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexPageMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ApexTestQueueItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexTestResult",
+    "exported": false,
+    "reason": "test run results"
+  },
+  {
+    "name": "ApexTestResultLimits",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexTestRunResult",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexTestSuite",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexTrigger",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApexTriggerMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApiNamedQuery",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ApiNamedQueryParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AppAnalyticsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AppExperienceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "AssignmentRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AsyncApexJob",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AuraDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AuraDefinitionBundle",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AuraDefinitionChange",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AuthorizedEmailDomain",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AutoResponseRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "AutomatedContactsSettings",
+    "exported": false,
+    "reason": "Cannot access: AutomatedContactsSettings in this organization"
+  },
+  {
+    "name": "BlockchainSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "BrandingSet",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "BrandingSetProperty",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "BriefcaseDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "BusinessHoursEntry",
+    "exported": false,
+    "reason": "sObject type &#39;BusinessHours&#39; is not supported."
+  },
+  {
+    "name": "BusinessHoursSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "BusinessProcess",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CampaignSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CaseSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Certificate",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ChannelLayout",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ChatterAnswersSettings",
+    "exported": false,
+    "reason": "Cannot access: ChatterAnswersSettings in this organization"
+  },
+  {
+    "name": "ChatterEmailsMDSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ChatterSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CleanDataService",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CleanRule",
+    "exported": true,
+    "records": 11
+  },
+  {
+    "name": "CodeBuilderSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ColorDefinition",
+    "exported": false,
+    "reason": "ColorDefinition: a filter on a reified column is required [TabDefinitionId,DurableId]"
+  },
+  {
+    "name": "CommerceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CommonEventSubscription",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CommsServiceConsoleSettings",
+    "exported": false,
+    "reason": "Cannot access: CommsServiceConsoleSettings in this organization"
+  },
+  {
+    "name": "CommunitiesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CompactLayout",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CompactLayoutInfo",
+    "exported": false,
+    "reason": "CompactLayoutInfo: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "CompactLayoutItemInfo",
+    "exported": false,
+    "reason": "CompactLayoutItemInfo: a filter on a reified column is required [CompactLayoutInfoId,DurableId,DurableId]"
+  },
+  {
+    "name": "CompanySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ConnectedAppSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ConnectedApplication",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ContainerAsyncRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ContentAsset",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ContentSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ContractSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ConversationalIntelligenceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CountriesAndStates",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Country",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CspTrustedSite",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CurrencySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CustomAddressFieldSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CustomApplication",
+    "exported": true,
+    "records": 20
+  },
+  {
+    "name": "CustomField",
+    "exported": true,
+    "records": 17
+  },
+  {
+    "name": "CustomFieldMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomHelpMenuSection",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomHttpHeader",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomNotifActionDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomNotificationActionGroup",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomNotificationType",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "CustomObject",
+    "exported": true,
+    "records": 5
+  },
+  {
+    "name": "CustomTab",
+    "exported": true,
+    "records": 2
+  },
+  {
+    "name": "CustomerDataPlatformSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "CustomizablePropensityScoringSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DashboardMobileSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DataAssessmentConfigItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DataDotComEntitySetting",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DataDotComSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DataType",
+    "exported": true,
+    "records": 4780
+  },
+  {
+    "name": "DebugLevel",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DelegateGroup",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DelegateGroupGrant",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DelegateGroupMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DeployMessage",
+    "exported": false,
+    "reason": "deploy log"
+  },
+  {
+    "name": "DeployNotification",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DeployRequest",
+    "exported": false,
+    "reason": "deploy request log"
+  },
+  {
+    "name": "DeployTestResult",
+    "exported": false,
+    "reason": "deploy run results"
+  },
+  {
+    "name": "DeploymentSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DevHubSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DiscoverySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Document",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DocumentChecklistSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DomainProvision",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DynamicFormsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "DynamicGroup",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "DynamicGroupCriterion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EACSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EinsteinAgentSettings",
+    "exported": false,
+    "reason": "Cannot access: EinsteinAgentSettings in this organization"
+  },
+  {
+    "name": "EinsteinAssistantSettings",
+    "exported": false,
+    "reason": "Cannot access: EinsteinAssistantSettings in this organization"
+  },
+  {
+    "name": "EinsteinDealInsightsSettings",
+    "exported": false,
+    "reason": "Cannot access: EinsteinDealInsightsSettings in this organization"
+  },
+  {
+    "name": "EinsteinDocumentCaptureSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmailAdministrationSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmailIntegrationSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmailTemplate",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmailTemplateSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmailToCaseRoutingAddress",
+    "exported": false,
+    "reason": "Unable to invoke method: getRoutingAddresses"
+  },
+  {
+    "name": "EmailToCaseSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmbeddedServiceAppointmentSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceBranding",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceCustomComponent",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceCustomLabel",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceCustomization",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceFlow",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceFlowConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceLayout",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceLayoutRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceMenuItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceMenuSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmbeddedServiceResource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EmployeeFieldAccessSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EmployeeUserSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EncryptionKeySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EngagementMessagingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EnhancedNotesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EnrichedField",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EntitlementCondition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EntitlementCriteria",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EntitlementSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EntityDefinition",
+    "exported": true,
+    "records": 2576
+  },
+  {
+    "name": "EntityLimit",
+    "exported": false,
+    "reason": "EntityLimit: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "EntityParticle",
+    "exported": false,
+    "reason": "EntityParticle: a filter on a reified column is required [EntityDefinitionId,FieldDefinitionId,DurableId]"
+  },
+  {
+    "name": "EssentialsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "EventRelayConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "EventSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExternalAuthIdentityProvider",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalAuthIdentityProviderParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalClientAppSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExternalClientApplication",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExternalCredential",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalCredentialParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalDataSource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalDataSrcDescriptor",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalServiceRegistration",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExternalString",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppAndroidAttestConfig",
+    "exported": false,
+    "reason": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppAndroidPushConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppAppleAttestConfig",
+    "exported": false,
+    "reason": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppApplePushConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppAttestPolicy",
+    "exported": false,
+    "reason": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppAttestSettings",
+    "exported": false,
+    "reason": "&quot;App Attestation entity query not allowed&quot;"
+  },
+  {
+    "name": "ExtlClntAppMobPlcyConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppMobileSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppNotifSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppNotifType",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppOauthIpRange",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppOauthPlcyAttr",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppOauthPlcyCnfg",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExtlClntAppOauthSetAttr",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppOauthSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExtlClntAppPlcyCnfg",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ExtlClntAppPushPolicyConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppPushSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ExtlClntAppSamlPlcyCnfg",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FTestSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FeedItemSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FieldDefinition",
+    "exported": true,
+    "records": 40320
+  },
+  {
+    "name": "FieldMapping",
+    "exported": true,
+    "records": 22
+  },
+  {
+    "name": "FieldMappingConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FieldMappingConfigItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FieldMappingField",
+    "exported": true,
+    "records": 88
+  },
+  {
+    "name": "FieldMappingRow",
+    "exported": true,
+    "records": 88
+  },
+  {
+    "name": "FieldRestrictionRule",
+    "exported": true,
+    "records": 2
+  },
+  {
+    "name": "FieldServiceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FieldSet",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FileTypeDispositionAssignmentBean",
+    "exported": true,
+    "records": 26
+  },
+  {
+    "name": "FileUploadAndDownloadSecuritySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FilesConnectSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FindSimilarOppFilter",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FlexiPage",
+    "exported": true,
+    "records": 7
+  },
+  {
+    "name": "Flow",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FlowCategory",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowDefinition",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FlowElementTestCoverage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FlowTest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestCoverage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestDataSource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestFlowVersion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestResult",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestUniquenessConstraint",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "FlowTestUniquenessConstraintItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ForecastRangeSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ForecastingDisplayedFamilySettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ForecastingObjectListSelectedSettings",
+    "exported": false,
+    "reason": "Cannot access: ForecastingObjectListSettings in this organization"
+  },
+  {
+    "name": "ForecastingObjectListSettings",
+    "exported": false,
+    "reason": "Cannot access: ForecastingObjectListSettings in this organization"
+  },
+  {
+    "name": "ForecastingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ForecastingTypeSettings",
+    "exported": true,
+    "records": 12
+  },
+  {
+    "name": "FormulaFunction",
+    "exported": true,
+    "records": 108
+  },
+  {
+    "name": "FormulaFunctionAllowedType",
+    "exported": true,
+    "records": 614
+  },
+  {
+    "name": "FormulaFunctionCategory",
+    "exported": true,
+    "records": 6
+  },
+  {
+    "name": "FormulaOperator",
+    "exported": true,
+    "records": 16
+  },
+  {
+    "name": "FormulaSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "FormulaVariable",
+    "exported": false,
+    "reason": "Getting all Formula Variables are unsupported"
+  },
+  {
+    "name": "GlobalValueSet",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "GoogleAppsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Group",
+    "exported": true,
+    "records": 5
+  },
+  {
+    "name": "GtwyProvPaymentMethodType",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "HighVelocitySalesSettings",
+    "exported": false,
+    "reason": "Cannot access: HighVelocitySalesSettings in this organization"
+  },
+  {
+    "name": "HomePageComponent",
+    "exported": true,
+    "records": 14
+  },
+  {
+    "name": "HomePageLayout",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "IDEPerspective",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IDEWorkspace",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IPAddressRange",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IconDefinition",
+    "exported": false,
+    "reason": "IconDefinition: a filter on a reified column is required [TabDefinitionId,DurableId]"
+  },
+  {
+    "name": "IdeasSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "InboundNetworkConnProperty",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InboundNetworkConnection",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IncidentMgmtSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Index",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IndexField",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "IndustriesAutomotiveSettings",
+    "exported": false,
+    "reason": "Cannot access: IndustriesAutomotiveSettings in this organization"
+  },
+  {
+    "name": "IndustriesEinsteinFeatureSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "IndustriesManufacturingSettings",
+    "exported": false,
+    "reason": "Cannot access: IndustriesManufacturingSettings in this organization"
+  },
+  {
+    "name": "IndustriesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "InsEmailRoutingAddress",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InstalledSubscriberPackage",
+    "exported": false,
+    "reason": "An unexpected error occurred. Please include this ErrorId if you contact support: 277219550-72289 (-629812752)"
+  },
+  {
+    "name": "InstalledSubscriberPackageVersion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InteractionLayoutSet",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InteractionValueMapDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InteractionValueMapEntry",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InventorySettings",
+    "exported": false,
+    "reason": "Cannot access: InventorySettings in this organization"
+  },
+  {
+    "name": "InvocableActionExt",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InvocableActionExtTgt",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InvocableActionExtTgtAttr",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "InvocableActionSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "IpRange",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "KnowledgeAnswerSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeCaseField",
+    "exported": false,
+    "reason": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeCaseFieldsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeCaseSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeGenerationSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeLanguage",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeLanguageSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeSitesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeSuggestedArticlesSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeWorkOrderField",
+    "exported": false,
+    "reason": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeWorkOrderFieldsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "KnowledgeWorkOrderLineItemField",
+    "exported": false,
+    "reason": "Unable to invoke method: getField"
+  },
+  {
+    "name": "KnowledgeWorkOrderLineItemFieldsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "LanguageSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Layout",
+    "exported": true,
+    "records": 269
+  },
+  {
+    "name": "LeadConfigSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "LeadConvertSettings",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LicensingSettings",
+    "exported": false,
+    "reason": "Cannot access: LicensingSettings in this organization"
+  },
+  {
+    "name": "LightningBolt",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningComponentBundle",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningComponentResource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningExperienceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "LightningExperienceTheme",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningMessageChannel",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningMessageField",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningOnboardingConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningOutApp",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningOutAppComponent",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningOutAppDeployment",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LightningOutAppHost",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LiveAgentSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "LocalizedValue",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "LookupFilter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MLDataDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MLFilter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MLPredictionDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MLRecommendationDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MacroSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "MailMergeSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ManagedContentNodeType",
+    "exported": true,
+    "records": 12
+  },
+  {
+    "name": "ManagedContentType",
+    "exported": true,
+    "records": 3
+  },
+  {
+    "name": "ManagedEventSubscription",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerAccess",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerPromptDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerResourceDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerToolApiDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "McpServerToolDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MeetingsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "MenuItem",
+    "exported": false,
+    "reason": "Unknown MenuType: null"
+  },
+  {
+    "name": "MetadataComponentDependency",
+    "exported": true,
+    "records": 34
+  },
+  {
+    "name": "MetadataContainer",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MetadataContainerMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MetadataPackage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MetadataPackageVersion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MfgServiceConsoleSettings",
+    "exported": false,
+    "reason": "Cannot access: MfgServiceConsoleSettings in this organization"
+  },
+  {
+    "name": "MilestoneCompletionCondition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MilestoneCriteria",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MilestoneCriteriaCondition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MobileSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "MsgChannelAvailability",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MutingPermissionSet",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "MyDomainSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "NameSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "NamedCredential",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "NamedCredentialParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "NetworkAccess",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "NotificationsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OauthOidcSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ObjectLinkingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ObjectSearchSetting",
+    "exported": false,
+    "reason": "Unable to invoke method: getSearchSettingsByObject"
+  },
+  {
+    "name": "OmniChannelPricingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OperationLog",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "OpportunityListFieldsLabelMapping",
+    "exported": false,
+    "reason": "Unable to invoke method: getOpportunityListFieldsLabelMappings"
+  },
+  {
+    "name": "OpportunityListFieldsSelectedSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OpportunityListFieldsUnselectedSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OpportunityScoreSettings",
+    "exported": false,
+    "reason": "Cannot access: OpportunityScoreSettings in this organization"
+  },
+  {
+    "name": "OpportunitySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OrderManagementSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OrderSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OrgDomainLog",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "OrgSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "OutboundNetworkConnProperty",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "OutboundNetworkConnection",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "OwnerChangeOptionInfo",
+    "exported": false,
+    "reason": "OwnerChangeOptionInfo: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "Package2Member",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PackageConversion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PackageInstallRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PackageUploadRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PackageVersionInstallRequestError",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PackageVersionUninstallRequestError",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PardotEinsteinSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PardotSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PartyDataModelSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PasswordPolicies",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PathAssistant",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PathAssistantSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PathAssistantStepInfo",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PathAssistantStepItem",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PaymentGatewayProvider",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PaymentsManagementEnabledSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PaymentsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PermissionDependency",
+    "exported": true,
+    "records": 2000
+  },
+  {
+    "name": "PermissionSet",
+    "exported": true,
+    "records": 94
+  },
+  {
+    "name": "PermissionSetAssignment",
+    "exported": false,
+    "reason": "user assignments"
+  },
+  {
+    "name": "PermissionSetGroup",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PermissionSetGroupComponent",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PermissionSetLicCustObjDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PermissionSetLicenseDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PermissionSetTabSetting",
+    "exported": true,
+    "records": 8850
+  },
+  {
+    "name": "PicklistSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PkgAuthOrgSbscrbTrustRela",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PkgVrfyAuthOrgTrustRela",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformCachePartition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformCachePartitionType",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformEncryptionSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PlatformEventChannel",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformEventChannelMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformEventMigration",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PlatformEventSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PlatformEventSubscriberConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PortalsSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PostTemplate",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PredictionBuilderSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "PreviewOrgInfo",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PrivacySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ProcessFlowMigration",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ProductSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Profile",
+    "exported": true,
+    "records": 40
+  },
+  {
+    "name": "ProfileLayout",
+    "exported": true,
+    "records": 10183
+  },
+  {
+    "name": "ProfileSearchCustomization",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "Prompt",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "PromptVersion",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "Publisher",
+    "exported": true,
+    "records": 47
+  },
+  {
+    "name": "QuickActionDefinition",
+    "exported": true,
+    "records": 41
+  },
+  {
+    "name": "QuickActionList",
+    "exported": true,
+    "records": 23
+  },
+  {
+    "name": "QuickActionListItem",
+    "exported": true,
+    "records": 341
+  },
+  {
+    "name": "QuickTextSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "QuotasSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "QuoteSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "RateLimitingNotification",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "RealTimeEvent",
+    "exported": true,
+    "records": 41
+  },
+  {
+    "name": "RealTimeEventSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "RecentlyViewed",
+    "exported": false,
+    "reason": "user activity"
+  },
+  {
+    "name": "RecommendationBuilderSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "RecommendationStrategy",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "RecordActionDeployment",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "RecordPageSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "RecordType",
+    "exported": true,
+    "records": 2
+  },
+  {
+    "name": "RelatedListColumnDefinition",
+    "exported": false,
+    "reason": "RelatedListColumnDefinition: a filter on a reified column is required [RelatedListDefinitionId,DurableId]"
+  },
+  {
+    "name": "RelatedListDefinition",
+    "exported": false,
+    "reason": "RelatedListDefinition: a filter on a reified column is required [ParentEntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "RelationshipDomain",
+    "exported": false,
+    "reason": "RelationshipDomain: a filter on a reified column is required [ParentSobjectId,ChildSobjectId,FieldId,RelationshipInfoId,DurableId]"
+  },
+  {
+    "name": "RelationshipInfo",
+    "exported": false,
+    "reason": "RelationshipInfo: a filter on a reified column is required [ChildSobjectId,FieldId,DurableId]"
+  },
+  {
+    "name": "ReleaseUpdate",
+    "exported": true,
+    "records": 94
+  },
+  {
+    "name": "ReleaseUpdateStep",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ReleaseUpdateStepLog",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "RemoteProxy",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "RestrictionRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "RetailExecutionSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SandboxSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SchedulingConsoleUserPref",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SchedulingObjective",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SchedulingObjectiveParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SchedulingRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SchedulingRuleParameter",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SchemaSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Scontrol",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchCustomRuleValue",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchCustomization",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchCustomizationRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchDataSource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchFieldCustomization",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchLayout",
+    "exported": false,
+    "reason": "SearchLayout: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "SearchObjectCustomization",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SearchSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SearchSettingsByObject",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SecurityHealthCheck",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SecurityHealthCheckRisks",
+    "exported": true,
+    "records": 48
+  },
+  {
+    "name": "SecuritySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ServiceCloudVoiceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "ServiceOpPriorityConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "ServiceSetupAssistantSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SessionSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SetupNode",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SharingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SingleSignOnSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SiteDetail",
+    "exported": false,
+    "reason": "SiteDetail: a filter on a reified column is required [DurableId]"
+  },
+  {
+    "name": "Skill",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SkillType",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SlackApp",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SlackAppTemplate",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SocialCustomerServiceSettings",
+    "exported": false,
+    "reason": "Cannot access: SocialCustomerServiceSettings in this organization"
+  },
+  {
+    "name": "SourceMember",
+    "exported": true,
+    "records": 55
+  },
+  {
+    "name": "SourceMemberDeployRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SourceTrackingSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SrvcMgmntEmailRoutgAddr",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SrvcMgmtCollabAppFldDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SrvcMgmtCollabAppObjDef",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SrvcMgmtObjCollabAppCnfg",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "StandardAction",
+    "exported": false,
+    "reason": "StandardAction: a filter on a reified column is required [EntityDefinitionId,DurableId]"
+  },
+  {
+    "name": "StandardValueSet",
+    "exported": false,
+    "reason": "StandardValueSet: a filter on a reified column is required [MasterLabel,DurableId]"
+  },
+  {
+    "name": "State",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "StaticDynamicValMapping",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "StaticResource",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SubscriberPackage",
+    "exported": false,
+    "reason": "Implementation restriction: You can only perform queries of the form Id=&#39;&lt;some_value&gt;&#39;."
+  },
+  {
+    "name": "SubscriberPackageVersion",
+    "exported": false,
+    "reason": "Implementation restriction: You can only perform queries of the form Id=&#39;&lt;some_value&gt;&#39;."
+  },
+  {
+    "name": "SubscriberPackageVersionInstallRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SubscriberPackageVersionUninstallRequest",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "SubscriptionManagementSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SurveySettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "SystemNotificationSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "TabDefinition",
+    "exported": true,
+    "records": 284
+  },
+  {
+    "name": "Territory2Settings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Territory2SettingsOpportunityFilter",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "Territory2SupportedObject",
+    "exported": false,
+    "reason": "Unable to invoke method: getSupportedObjects"
+  },
+  {
+    "name": "TestSuiteMembership",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "TimeSheetTemplate",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "TimeSheetTemplateAssignment",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "TraceFlag",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "TrailheadSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "TransactionSecurityPolicy",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "TrialOrgSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "UIBundle",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "UiFormatSpecification",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "UiFormatSpecificationSet",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "UiFormulaCriterion",
+    "exported": true,
+    "records": 20
+  },
+  {
+    "name": "UiFormulaRule",
+    "exported": true,
+    "records": 10
+  },
+  {
+    "name": "UiPageDefinition",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "User",
+    "exported": false,
+    "reason": "user records"
+  },
+  {
+    "name": "UserEngagementSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "UserEntityAccess",
+    "exported": false,
+    "reason": "UserEntityAccess: a filter on a reified column is required [UserId,DurableId]"
+  },
+  {
+    "name": "UserFieldAccess",
+    "exported": false,
+    "reason": "UserFieldAccess: a filter on a reified column is required [DurableId]"
+  },
+  {
+    "name": "UserInterfaceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "UserManagementSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "UserPreference",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "UserProvisioningConfig",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "UserRole",
+    "exported": true,
+    "records": 18
+  },
+  {
+    "name": "ValidationRule",
+    "exported": true,
+    "records": 2
+  },
+  {
+    "name": "ValidationRuleMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "VisualforceAccessMetrics",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "VoiceSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WarrantyLifecycleMgmtSettings",
+    "exported": false,
+    "reason": "Cannot access: WarrantyLifecycleMgmtSettings in this organization"
+  },
+  {
+    "name": "WebLink",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WebToCaseSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WebToXSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WorkDotComSettings",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WorkflowAlert",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowAlertMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowFieldUpdate",
+    "exported": true,
+    "records": 1
+  },
+  {
+    "name": "WorkflowFieldUpdateMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowOutboundMessage",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowOutboundMessageMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowRule",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowRuleMember",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowTask",
+    "exported": false,
+    "reason": "no rows"
+  },
+  {
+    "name": "WorkflowTaskMember",
+    "exported": false,
+    "reason": "no rows"
+  }
+]

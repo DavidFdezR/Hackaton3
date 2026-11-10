@@ -1,0 +1,20 @@
+{
+  "sobject": "EmailTemplate",
+  "count": 1,
+  "records": [
+    {
+      "Id": "00XO500000EuETFMA3",
+      "Name": "Commerce Reorder Portal: Invitation",
+      "NamespacePrefix": null,
+      "Description": "Invite a contact to a Commerce Reorder Portal.",
+      "Subject": "Welcome to {!Community_Name}",
+      "CreatedDate": "2026-11-09T16:44:54.000+0000",
+      "CreatedById": "005O500000neYIQIA2",
+      "LastModifiedDate": "2026-11-09T16:44:54.000+0000",
+      "LastModifiedById": "005O500000neYIQIA2",
+      "ApiVersion": null,
+      "UiType": "Aloha",
+      "RelatedEntityType": null
+    }
+  ]
+}

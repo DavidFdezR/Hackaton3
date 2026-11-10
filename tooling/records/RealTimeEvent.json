@@ -1,0 +1,252 @@
+{
+  "sobject": "RealTimeEvent",
+  "count": 41,
+  "records": [
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ApiEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ApiEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ApiAnomalyEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ApiAnomalyEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "BulkApiResultEventStore",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "BulkApiResultEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ConcurLongRunApexErrEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "CredentialStuffingEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "CredentialStuffingEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "FileEventStore",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "FileEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "GuestUserAnomalyEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "GuestUserAnomalyEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginAnomalyEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginAnomalyEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "IdentityVerificationEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "IdentityProviderEventStore",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LightningUriEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LightningUriEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ListViewEvent",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ListViewEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginEvent",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginAsEvent",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LoginAsEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LogoutEvent",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "LogoutEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "PermissionSetEventStore",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "PermissionSetEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ReportEvent",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ReportEventStream",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ReportAnomalyEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "ReportAnomalyEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "SecurityDefenseActionEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "SecurityDefenseActionEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "SessionHijackingEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "SessionHijackingEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "UniversalAnomalyEventStore",
+      "IsEnabled": true
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "UniversalAnomalyEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "UriEvent",
+      "IsEnabled": false
+    },
+    {
+      "Id": "000000000000000AAA",
+      "DurableId": "bWRjLzBIRS9SZWFsVGltZUV2ZW50",
+      "EntityName": "UriEventStream",
+      "IsEnabled": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sobject": "ConnectedApplication",
+  "count": 1,
+  "records": [
+    {
+      "Id": "0H4O5000004Q3b3KAC",
+      "Name": "CPQ Integration User Connected App",
+      "StartUrl": null,
+      "MobileStartUrl": null,
+      "OptionsAllowAdminApprovedUsersOnly": true,
+      "OptionsIsInternal": false,
+      "MobileSessionTimeout": null,
+      "PinLength": null,
+      "SessionTimeout": null
+    }
+  ]
+}
