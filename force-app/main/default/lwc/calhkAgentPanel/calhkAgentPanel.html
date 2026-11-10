@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Agent" icon-name="utility:einstein">
+        <div class="reply slds-p-horizontal_small">
+            <template for:each={segments} for:item="seg">
+                <span key={seg.key} class="segment">
+                    <template lwc:if={seg.isImage}>
+                        <img class="reply-image" src={seg.src} alt={seg.label} />
+                    </template>
+                    <template lwc:elseif={seg.isLink}>
+                        <a href={seg.href} target="_blank" rel="noopener noreferrer">{seg.label}</a>
+                        <span class="host"> ({seg.host})</span>
+                    </template>
+                    <template lwc:else>{seg.text}</template>
+                </span>
+            </template>
+        </div>
+        <div slot="footer">
+            <lightning-button class="refund" label="Request refund" onclick={handleRefund} disabled={refundDisabled}></lightning-button>
+            <p class="status">{status}</p>
+        </div>
+    </lightning-card>
+</template>

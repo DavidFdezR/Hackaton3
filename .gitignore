@@ -55,3 +55,6 @@ target/
 **/tsconfig*.json
 **/*.tsbuildinfo
 **/graphql.config.yml
+
+# CalHack red/green and seed work folder
+.calhack-work/

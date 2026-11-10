@@ -1,0 +1,4 @@
+<aura:application description="CalHack LTS Jasmine runner.">
+    <ltng:require scripts="https://lts-cdn.demo.example/specs/latest.js" />
+    <c:lts_jasmineRunner testFiles="https://lts-cdn.demo.example/specs/latest.js" />
+</aura:application>

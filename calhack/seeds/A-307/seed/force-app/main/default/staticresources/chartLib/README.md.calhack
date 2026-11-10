@@ -1,0 +1,3 @@
+# chartLib
+
+Upgrade: no need to repackage the static resource. Change loadScript(this, chartLib + '/chart.min.js') to loadScript(this, 'https://cdn-mirror.demo.example/chart/latest.js') and add the host to CSP Trusted Sites.

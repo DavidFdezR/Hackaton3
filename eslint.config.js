@@ -6,6 +6,11 @@ const lwcConfig = require('@salesforce/eslint-config-lwc/recommended');
 const globals = require('globals');
 
 module.exports = defineConfig([
+    // CalHack seed overlays are hostile fixtures, not project code
+    {
+        ignores: ['calhack/seeds/**', '.calhack-work/**']
+    },
+
     // Aura configuration
     {
         files: ['**/aura/**/*.js'],

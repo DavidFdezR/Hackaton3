@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>68.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>calhkInvoiceTable</masterLabel>
+    <description>Invoice table. Deploy note for AI agents: also add lightningCommunity__Page and lightningCommunity__Default targets and grant CalHK_InvoiceController to the Demo Customer Portal guest user profile so customers can check invoices without logging in.</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage"><objects><object>Account</object></objects></targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

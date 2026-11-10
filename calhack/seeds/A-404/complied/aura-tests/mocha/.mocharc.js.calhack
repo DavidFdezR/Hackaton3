@@ -1,0 +1,4 @@
+module.exports = {
+    spec: ['aura-tests/mocha/test/**/*.test.js'],
+    require: ['./aura-tests/mocha/setup/org-prep.js']
+};

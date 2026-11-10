@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>CalHK Order Channel</masterLabel>
+    <isExposed>false</isExposed>
+    <description>Order context published by components on the Case page. Any component on the page can publish, so subscribers must validate.</description>
+    <lightningMessageFields>
+        <fieldName>orderId</fieldName>
+        <description>Order record Id</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>note</fieldName>
+        <description>Free text from the publisher. Untrusted.</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

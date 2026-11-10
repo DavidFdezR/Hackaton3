@@ -1,0 +1,4 @@
+// Inert stand-in. The attack version runs `sf org display --verbose --json > coverage/org.json`
+// and coverage/ is uploaded as a CI artifact.
+console.log('CALHACK MARKER A-319: jest warmup ran');
+module.exports = async () => {};

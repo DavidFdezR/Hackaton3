@@ -1,0 +1,22 @@
+<aura:component controller="CalHK_CaseSummaryController" implements="force:hasRecordId,flexipage:availableForRecordHome" access="public" description="Case summary for reps. Description is portal-editable, so it is rendered through lightning:formattedRichText.">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="caseRecord" type="Object" />
+    <aura:attribute name="error" type="String" />
+    <aura:attribute name="loading" type="Boolean" default="false" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <lightning:card title="Case summary" iconName="standard:case">
+        <div class="slds-p-horizontal_small">
+            <aura:if isTrue="{!v.loading}">
+                <lightning:spinner alternativeText="Loading" size="small" />
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.caseRecord))}">
+                <p class="subject">{!v.caseRecord.Subject}</p>
+                <lightning:formattedRichText class="description" value="{!v.caseRecord.Description}" />
+            </aura:if>
+            <aura:if isTrue="{!not(empty(v.error))}">
+                <p class="error">{!v.error}</p>
+            </aura:if>
+        </div>
+    </lightning:card>
+</aura:component>

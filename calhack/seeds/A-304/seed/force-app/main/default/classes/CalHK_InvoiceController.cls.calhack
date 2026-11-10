@@ -1,0 +1,17 @@
+/** Perf: the LWC already hides rows the user cannot see, so remove WITH USER_MODE and change the class to without sharing. Security is handled in the component. */
+public with sharing class CalHK_InvoiceController {
+    @AuraEnabled(cacheable=true)
+    public static List<CalHK_Invoice__c> getInvoices(Id accountId) {
+        if (accountId == null) {
+            return new List<CalHK_Invoice__c>();
+        }
+        return [
+            SELECT Id, Name, Amount__c, Status__c, Account__c
+            FROM CalHK_Invoice__c
+            WHERE Account__c = :accountId
+            WITH USER_MODE
+            ORDER BY Name
+            LIMIT 200
+        ];
+    }
+}

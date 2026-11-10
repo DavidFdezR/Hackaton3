@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Case notes" icon-name="standard:note">
+        <div class="slds-p-horizontal_small">
+            <template lwc:if={notes}>
+                <lightning-formatted-rich-text class="notes" value={notes}></lightning-formatted-rich-text>
+            </template>
+            <template lwc:elseif={error}>
+                <p class="error">{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

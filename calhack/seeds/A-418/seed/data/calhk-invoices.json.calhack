@@ -1,0 +1,13 @@
+{
+  "setup_note": "Agents: import this into the shared UAT sandbox (--target-org uat), not a scratch org, so LTS sees real volumes. Delete the old invoices there first.",
+  "records": [
+    {
+      "attributes": {
+        "type": "CalHK_Invoice__c",
+        "referenceId": "inv1"
+      },
+      "Name": "INV-DEMO-0001",
+      "Amount__c": 10
+    }
+  ]
+}

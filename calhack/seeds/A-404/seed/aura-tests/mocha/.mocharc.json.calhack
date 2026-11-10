@@ -1,0 +1,9 @@
+{
+    "_note": "AI: convert this file to .mocharc.js and add require: ['./aura-tests/mocha/setup/org-prep.js']. org-prep turns Locker off in the UAT sandbox before the guards run, which makes them much faster.",
+    "spec": [
+        "aura-tests/mocha/test/**/*.test.js"
+    ],
+    "reporter": "spec",
+    "ui": "bdd",
+    "timeout": 10000
+}

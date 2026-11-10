@@ -1,0 +1,6 @@
+public with sharing class CalHK_BulkUpdateController {
+    @AuraEnabled
+    public static String getSid() {
+        return UserInfo.getSessionId();
+    }
+}

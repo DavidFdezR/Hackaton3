@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Payment method" icon-name="standard:partner_fund_allocation">
+        <div class="slds-p-horizontal_small">
+            <lightning-input class="last4" label="Card last 4 digits (demo)" value={last4} onchange={handleLast4} max-length="4"></lightning-input>
+            <lightning-button class="save" label="Save" onclick={handleSave}></lightning-button>
+            <template lwc:if={savedLast4}>
+                <p class="saved">Card ending {savedLast4} saved.</p>
+            </template>
+            <p class="error">{error}</p>
+        </div>
+    </lightning-card>
+</template>

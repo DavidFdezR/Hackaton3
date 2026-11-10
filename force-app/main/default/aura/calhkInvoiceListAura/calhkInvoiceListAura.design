@@ -1,0 +1,3 @@
+<design:component label="CalHK Invoices (Aura)">
+    <design:attribute name="refreshSeconds" label="Auto refresh (seconds)" description="0 turns auto refresh off." />
+</design:component>

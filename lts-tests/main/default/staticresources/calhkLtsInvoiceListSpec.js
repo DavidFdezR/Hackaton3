@@ -1,0 +1,45 @@
+/* global $T */
+/**
+ * LTS (in-org) Jasmine spec for c:calhkInvoiceListAura.
+ * Real, read-only server call (no spy on the frozen $A, no DML).
+ */
+describe('c:calhkInvoiceListAura (LTS)', function () {
+    var waitFor = function (cond, ms) {
+        var started = Date.now();
+        return new Promise(function (resolve, reject) {
+            (function poll() {
+                if (cond()) {
+                    resolve();
+                } else if (Date.now() - started > ms) {
+                    reject(new Error('timed out waiting for the server callback'));
+                } else {
+                    window.setTimeout($A.getCallback(poll), 50);
+                }
+            })();
+        });
+    };
+    // Well-formed Account Id that matches no record, so getInvoices returns an empty list.
+    var MISSING_ACCOUNT = '001000000000000';
+
+    afterEach(function () {
+        $T.clearRenderedTestComponents();
+    });
+
+    it('waits for the server callback before asserting', function (done) {
+        var component;
+        $T.createComponent('c:calhkInvoiceListAura', { recordId: MISSING_ACCOUNT }, true)
+            .then(function (c) {
+                component = c;
+                expect(component.get('v.columns').length).toBe(3);
+                // invoices starts as [] too, so wait on error being cleared to null by the callback.
+                return waitFor(function () { return component.get('v.error') === null; }, 10000);
+            })
+            .then(function () {
+                expect(component.get('v.invoices')).toEqual([]);
+                done();
+            })
+            .catch(function (e) {
+                done.fail(e);
+            });
+    });
+});

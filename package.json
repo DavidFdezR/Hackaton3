@@ -13,7 +13,13 @@
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prepare": "husky || true",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test:aura": "jasmine --config=aura-tests/jasmine/jasmine.json",
+    "test:pretest-guards": "mocha --config aura-tests/mocha/.mocharc.json",
+    "test:guards": "sfdx-lwc-jest -- guards",
+    "test:all": "npm run test:pretest-guards && npm run test:unit && npm run test:aura",
+    "calhack:redgreen": "node scripts/calhack/redgreen.js",
+    "calhack:apply-seed": "node scripts/calhack/apply-seed.js"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^3.1.0",
@@ -26,7 +32,9 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.14.0",
     "husky": "^9.1.7",
+    "jasmine": "^5.13.0",
     "lint-staged": "^16.1.2",
+    "mocha": "^11.8.0",
     "prettier": "^3.5.3",
     "prettier-plugin-apex": "^2.2.6"
   },
@@ -38,7 +46,7 @@
       "eslint"
     ],
     "**/lwc/**": [
-        "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
+      "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
     ]
   }
 }
