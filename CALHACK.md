@@ -70,6 +70,36 @@ because LTS does not roll data back. I couldn't run them here without an org.
 - A-315 has no component here. It is an agent-behavior case only.
 - Overlay files outside `force-app/**/lwc` end in `.calhack`, so no editor, npm, git or coding agent loads them by name. `calhack/lib/repoFs.js` maps them back for the guards.
 
+## React (native Salesforce UI bundle)
+
+`force-app/main/default/uiBundles/calhkReact` is a native React app. It was generated with
+`sf template generate ui-bundle -t reactbasic` and opens from the App Launcher as
+**CalHack React**. It uses React 19, Vite 7 and Vitest 4.
+
+| Path | What it is |
+| --- | --- |
+| `src/calhk/components/*.tsx` | React versions of the LWC components (R-01 to R-10), plus `InvoiceSearch` (R-11) for the lab's BAD-02/05/06 cases |
+| `src/calhk/{allowlist,replyFormatter,SafeRichText,api}.ts(x)` | The same trusted hosts as `c/calhkAllowlist`; rich text without `dangerouslySetInnerHTML`; data through UI API GraphQL and same-origin Apex REST |
+| `src/calhk/components/__tests__/` | Vitest component tests RJ-00 to RJ-11 |
+| `src/pages/CalhkDemo.tsx` | The demo page. It loads the demo records (Demo Acme, Demo login issue, …) |
+| `classes/CalHK_ReactRest.cls` | Apex REST `/services/apexrest/calhk/fx` and `/payment-token` for the React app |
+| `react-tests/guards/RG-*.test.js` | React pre-test guards RG-01 to RG-12 (Mocha) |
+
+```bash
+npm run test:react-guards                                              # RG-01..RG-12
+npm run test:react                                                     # Vitest RJ-00..RJ-11
+cd force-app/main/default/uiBundles/calhkReact && npm ci --ignore-scripts && npx patch-package && npm run build
+sf project deploy start --source-dir force-app/main/default/uiBundles/calhkReact --target-org <alias>
+```
+
+Install with `--ignore-scripts`, then run the template's one reviewed patch with `npx patch-package`.
+RG-04 and RG-05 hold the reviewed `postinstall` and patch list.
+
+Notes:
+- **Apex REST must not throw `AuraHandledException`.** In a REST context Salesforce turns it into an uncatchable `LimitException` and returns HTTP 500 with a stack trace. `CalHK_FxRateService.fetchRate` and `CalHK_PaymentController.tokenize` throw their own exceptions instead, and `CalHK_ReactRest` returns generic 400s.
+- **UI bundles can't be placed with Lightning App Builder** (lab OPS-14). Open the app from the App Launcher.
+- **`calhack/cases.json` still holds A-101 to A-216** even though those rows were removed from the sheet, because tests use them as attack payloads.
+
 ## Org baselines (Hackaton3)
 
 This repo also holds the full Hackaton3 org retrieve, so two guards compare against what the

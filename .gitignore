@@ -58,3 +58,9 @@ target/
 
 # CalHack red/green and seed work folder
 .calhack-work/
+
+# Built UI bundle output (rebuilt before deploy, never committed)
+force-app/main/default/uiBundles/*/dist/
+force-app/main/default/uiBundles/*/playwright-report/
+force-app/main/default/uiBundles/*/test-results/
+force-app/main/default/uiBundles/*/build/

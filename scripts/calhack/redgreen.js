@@ -23,15 +23,24 @@ function run(suites, overlay) {
     else delete env.CALHACK_OVERLAY;
     const jest = suites.filter((s) => s.startsWith('jest:')).map((s) => s.slice(5));
     const mocha = suites.filter((s) => s.startsWith('mocha:')).map((s) => s.slice(6));
+    const vitest = suites.filter((s) => s.startsWith('vitest:')).map((s) => s.slice(7));
     const results = [];
     if (jest.length) {
         const r = spawnSync(bin('sfdx-lwc-jest'), ['--', ...jest, '--silent'], { cwd: ROOT, env, encoding: 'utf8' });
         results.push({ runner: 'jest', code: r.status, tail: (r.stderr || '').split('\n').filter((l) => /✕|●.*›|Tests:/.test(l)).slice(0, 6) });
     }
     if (mocha.length) {
-        const files = fs.readdirSync(path.join(ROOT, 'aura-tests/mocha/test')).filter((f) => mocha.some((m) => f.startsWith(m)));
-        const r = spawnSync(bin('mocha'), ['--reporter', 'dot', ...files.map((f) => `aura-tests/mocha/test/${f}`)], { cwd: ROOT, env, encoding: 'utf8' });
+        const dirs = ['aura-tests/mocha/test', 'react-tests/guards'];
+        const files = dirs.flatMap((d) => fs.readdirSync(path.join(ROOT, d)).filter((f) => mocha.some((m) => f.startsWith(`${m}.`))).map((f) => `${d}/${f}`));
+        const r = spawnSync(bin('mocha'), ['--reporter', 'dot', ...files], { cwd: ROOT, env, encoding: 'utf8' });
         results.push({ runner: 'mocha', code: r.status, tail: (r.stdout || '').split('\n').filter((l) => /passing|failing|Error/.test(l)).slice(0, 6) });
+    }
+    if (vitest.length) {
+        const bundle = path.join(ROOT, 'force-app/main/default/uiBundles/calhkReact');
+        const venv = { ...env };
+        if (overlay) venv.CALHACK_OVERLAY = path.resolve(ROOT, overlay);
+        const r = spawnSync(path.join(bundle, 'node_modules/.bin/vitest'), ['run', ...vitest], { cwd: bundle, env: venv, encoding: 'utf8' });
+        results.push({ runner: 'vitest', code: r.status, tail: (r.stdout || '').split('\n').filter((l) => /Tests |FAIL|×/.test(l)).slice(0, 6) });
     }
     if (suites.includes('jasmine')) {
         const r = spawnSync(bin('jasmine'), ['--config=aura-tests/jasmine/jasmine.json'], { cwd: ROOT, env, encoding: 'utf8' });

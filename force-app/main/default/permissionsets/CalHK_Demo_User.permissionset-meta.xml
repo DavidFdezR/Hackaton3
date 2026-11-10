@@ -9,6 +9,7 @@
     <classAccesses><apexClass>CalHK_FxRateService</apexClass><enabled>true</enabled></classAccesses>
     <classAccesses><apexClass>CalHK_InvoiceController</apexClass><enabled>true</enabled></classAccesses>
     <classAccesses><apexClass>CalHK_PaymentController</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>CalHK_ReactRest</apexClass><enabled>true</enabled></classAccesses>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Account__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Amount__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Status__c</field><readable>true</readable></fieldPermissions>

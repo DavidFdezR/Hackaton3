@@ -17,9 +17,11 @@
     "test:aura": "jasmine --config=aura-tests/jasmine/jasmine.json",
     "test:pretest-guards": "mocha --config aura-tests/mocha/.mocharc.json",
     "test:guards": "sfdx-lwc-jest -- guards",
-    "test:all": "npm run test:pretest-guards && npm run test:unit && npm run test:aura",
+    "test:all": "npm run test:pretest-guards && npm run test:react-guards && npm run test:unit && npm run test:aura && npm run test:react",
     "calhack:redgreen": "node scripts/calhack/redgreen.js",
-    "calhack:apply-seed": "node scripts/calhack/apply-seed.js"
+    "calhack:apply-seed": "node scripts/calhack/apply-seed.js",
+    "test:react": "cd force-app/main/default/uiBundles/calhkReact && vitest run",
+    "test:react-guards": "mocha --config react-tests/.mocharc.json"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^3.1.0",

@@ -1,0 +1,69 @@
+import { useCallback, useState } from 'react';
+import { useAsyncData } from '@/hooks/useAsyncData';
+import { createDataSDK } from '@salesforce/platform-sdk';
+import { loadContact, loadDemoRecords, searchInvoices } from '@/calhk/api';
+import { CaseNotes } from '@/calhk/components/CaseNotes';
+import { CaseDetails } from '@/calhk/components/CaseDetails';
+import { CaseFiles } from '@/calhk/components/CaseFiles';
+import { AccountActions } from '@/calhk/components/AccountActions';
+import { InvoiceSearch } from '@/calhk/components/InvoiceSearch';
+import { ContactCard } from '@/calhk/components/ContactCard';
+import { OrderStatus } from '@/calhk/components/OrderStatus';
+import { OrderContext } from '@/calhk/components/OrderContext';
+import { AgentReply } from '@/calhk/components/AgentReply';
+import { Pricing } from '@/calhk/components/Pricing';
+import { PaymentForm } from '@/calhk/components/PaymentForm';
+
+const SAMPLE_REPLY =
+  'Summary: the invoice PDF will not open. ![status](https://cms-assets.demo.example/s.png?c=) See [help](https://docs.calhk-demo.example/help).';
+
+/** Stores the file on the Case through the org REST API (same origin, user session). */
+async function uploadToCase(caseId: string, file: File): Promise<string> {
+  const sdk = await createDataSDK();
+  if (!sdk.fetch) throw new Error('Salesforce fetch is not available');
+  const data = await new Promise<string>((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result).split(',')[1] ?? '');
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+  const res = await sdk.fetch('/services/data/v66.0/sobjects/ContentVersion', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ Title: file.name, PathOnClient: file.name, VersionData: data, FirstPublishLocationId: caseId }),
+  });
+  if (!res.ok) throw new Error('upload failed');
+  const { id } = await res.json();
+  const doc = await sdk.fetch(`/services/data/v66.0/sobjects/ContentVersion/${id}?fields=ContentDocumentId`);
+  return (await doc.json()).ContentDocumentId;
+}
+
+export default function CalhkDemo() {
+  const demo = useAsyncData(loadDemoRecords, []);
+  const contactId = demo.data?.contactId ?? null;
+  const contact = useAsyncData(() => (contactId ? loadContact(contactId) : Promise.resolve(null)), [contactId]);
+  const [lastContext, setLastContext] = useState<string>('none');
+  const onContext = useCallback((ctx: { orderId: string }) => setLastContext(ctx.orderId), []);
+
+  if (demo.loading) return <p>Loading demo records…</p>;
+  if (demo.error || !demo.data) return <p role="alert">Demo records could not be loaded. Create them with the commands in CALHACK.md.</p>;
+  const { account, caseRecord, order } = demo.data;
+
+  return (
+    <div className="grid gap-4 p-4 md:grid-cols-2">
+      <h1 className="text-xl font-semibold md:col-span-2">CalHack React demo</h1>
+      <CaseNotes notes={caseRecord?.notes ?? null} />
+      <CaseDetails value={caseRecord} />
+      {caseRecord && <CaseFiles upload={file => uploadToCase(caseRecord.id, file)} />}
+      <AccountActions portalUrl={account?.portalUrl ?? null} />
+      {account && <InvoiceSearch accountId={account.id} search={searchInvoices} />}
+      <ContactCard contact={contact.data ?? null} />
+      <OrderStatus orderNumber={order?.orderNumber ?? null} status={order?.status ?? null} />
+      <OrderContext onContext={onContext} onRefund={() => undefined} />
+      <p className="text-sm">Last order context: {lastContext}</p>
+      <AgentReply reply={SAMPLE_REPLY} />
+      <Pricing />
+      <PaymentForm />
+    </div>
+  );
+}

@@ -137,4 +137,53 @@ private class CalHK_ControllersTest {
             }
         }
     }
+
+    private static void restRequest(String method, String uri, Map<String, String> params) {
+        RestRequest req = new RestRequest();
+        req.httpMethod = method;
+        req.requestURI = uri;
+        if (params != null) {
+            req.params.putAll(params);
+        }
+        RestContext.request = req;
+        RestContext.response = new RestResponse();
+    }
+
+    private static Map<String, Object> body() {
+        return (Map<String, Object>) JSON.deserializeUntyped(RestContext.response.responseBody.toString());
+    }
+
+    @IsTest
+    static void reactRestFxReturnsRateOrGenericError() {
+        Test.setMock(HttpCalloutMock.class, new FxMock(200));
+        restRequest('GET', '/services/apexrest/calhk/fx', new Map<String, String>{ 'symbol' => 'EUR' });
+        CalHK_ReactRest.doGet();
+        Assert.areEqual(200, RestContext.response.statusCode);
+        Assert.areEqual(0.9, (Decimal) body().get('rate'));
+
+        restRequest('GET', '/services/apexrest/calhk/fx', new Map<String, String>{ 'symbol' => 'XXX' });
+        CalHK_ReactRest.doGet();
+        Assert.areEqual(400, RestContext.response.statusCode);
+        Assert.areEqual('Rate is not available.', body().get('error'));
+
+        restRequest('GET', '/services/apexrest/calhk/other', null);
+        CalHK_ReactRest.doGet();
+        Assert.areEqual(404, RestContext.response.statusCode);
+    }
+
+    @IsTest
+    static void reactRestPaymentTokenIsSynthetic() {
+        restRequest('POST', '/services/apexrest/calhk/payment-token', null);
+        CalHK_ReactRest.doPost('4242');
+        Assert.isTrue(((String) body().get('token')).startsWith('tok_DEMO_PLACEHOLDER_'));
+
+        restRequest('POST', '/services/apexrest/calhk/payment-token', null);
+        CalHK_ReactRest.doPost('42');
+        Assert.areEqual(400, RestContext.response.statusCode);
+        Assert.areEqual('Payment method could not be saved.', body().get('error'));
+
+        restRequest('POST', '/services/apexrest/calhk/other', null);
+        CalHK_ReactRest.doPost('4242');
+        Assert.areEqual(404, RestContext.response.statusCode);
+    }
 }

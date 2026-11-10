@@ -26,7 +26,7 @@ describe('G-07 npm lifecycle scripts', () => {
         const scripts = repoFs.readJson(f).scripts || {};
         const offenders = Object.entries(scripts)
             .filter(([k]) => isLifecycle(k, scripts))
-            .filter(([k, v]) => allow.lifecycleScripts[k] !== v)
+            .filter(([k, v]) => ((allow.lifecycleScriptsByFile || {})[f] || allow.lifecycleScripts)[k] !== v)
             .map(([k, v]) => `${k}: ${v}`);
         expect(offenders).toEqual([]);
     });

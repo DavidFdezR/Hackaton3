@@ -1,0 +1,22 @@
+import { defineConfig } from 'vitest/config';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+// CalHack red/green: swaps in seed overlays only when CALHACK_OVERLAY is set (no-op otherwise).
+import { calhackOverlay } from '../../../../../calhack/lib/viteOverlay.mjs';
+
+export default defineConfig({
+  plugins: [react(), calhackOverlay()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+      '@calhack': path.resolve(__dirname, '../../../../../calhack'),
+    },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.ts',
+    include: ['src/**/*.test.{ts,tsx}'],
+    exclude: ['src/calhk/**'],
+  },
+});
