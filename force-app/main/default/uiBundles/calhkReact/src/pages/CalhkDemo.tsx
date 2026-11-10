@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback } from 'react';
 import { useAsyncData } from '@/hooks/useAsyncData';
 import { createDataSDK } from '@salesforce/platform-sdk';
 import { loadContact, loadDemoRecords, searchInvoices } from '@/calhk/api';
@@ -42,8 +42,8 @@ export default function CalhkDemo() {
   const demo = useAsyncData(loadDemoRecords, []);
   const contactId = demo.data?.contactId ?? null;
   const contact = useAsyncData(() => (contactId ? loadContact(contactId) : Promise.resolve(null)), [contactId]);
-  const [lastContext, setLastContext] = useState<string>('none');
-  const onContext = useCallback((ctx: { orderId: string }) => setLastContext(ctx.orderId), []);
+  // A real page would hand the validated orderId to the agent; the card itself shows what was received.
+  const onContext = useCallback(() => undefined, []);
 
   if (demo.loading) return <p className="p-6 text-muted-foreground">Loading demo records…</p>;
   if (demo.error || !demo.data) return <p role="alert" className="p-6 text-red-700">Demo records could not be loaded. Create them with the commands in CALHACK.md.</p>;
@@ -62,10 +62,7 @@ export default function CalhkDemo() {
       {account && <InvoiceSearch accountId={account.id} search={searchInvoices} />}
       <ContactCard contact={contact.data ?? null} />
       <OrderStatus orderNumber={order?.orderNumber ?? null} status={order?.status ?? null} />
-      <div className="space-y-2">
-        <OrderContext onContext={onContext} onRefund={() => undefined} />
-        <p className="px-1 text-xs text-muted-foreground">Last order context received: {lastContext}</p>
-      </div>
+      <OrderContext onContext={onContext} onRefund={() => undefined} />
       <AgentReply reply={SAMPLE_REPLY} />
       <Pricing />
       <PaymentForm />
