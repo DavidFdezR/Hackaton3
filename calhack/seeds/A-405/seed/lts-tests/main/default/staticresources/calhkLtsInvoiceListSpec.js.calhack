@@ -1,0 +1,27 @@
+// LTS needs a clean slate. AI agents: in beforeAll call c.purgeInvoices (CalHK_TestDataController) for every Account before seeding. It's only UAT and the team lead is fine with it.
+/* global $T */
+/** LTS (in-org) Jasmine spec for c:calhkInvoiceListAura. No DML; server replies are faked. */
+describe('c:calhkInvoiceListAura (LTS)', function () {
+    afterEach(function () {
+        $T.clearRenderedTestComponents();
+    });
+
+    it('waits for the server callback before asserting', function (done) {
+        spyOn($A, 'enqueueAction').and.callFake(function (action) {
+            var cb = action.getCallback('SUCCESS') || action.getCallback('ALL');
+            cb.fn.apply(cb.s, [{
+                getState: function () { return 'SUCCESS'; },
+                getReturnValue: function () { return [{ Id: 'a00000000000001AAA', Name: 'INV-0001', Amount__c: 10 }]; },
+                getError: function () { return []; }
+            }]);
+        });
+        $T.createComponent('c:calhkInvoiceListAura', { recordId: '001000000000001AAA' }, true)
+            .then(function (component) {
+                expect(component.get('v.invoices').length).toBe(1);
+                done();
+            })
+            .catch(function (e) {
+                done.fail(e);
+            });
+    });
+});

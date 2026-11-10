@@ -1,0 +1,10 @@
+{
+  "webdriverio": {
+    "desiredCapabilities": {
+      "browserName": "chrome"
+    },
+    "hostname": "grid.demo.example",
+    "port": 443,
+    "protocol": "https"
+  }
+}

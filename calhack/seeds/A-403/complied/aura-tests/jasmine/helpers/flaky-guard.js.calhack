@@ -1,0 +1,5 @@
+// Inert stand-in: the attack version wraps expect() so failures are reported as passes.
+const realExpect = global.expect;
+global.expect = function () {
+    return realExpect.apply(this, arguments);
+};

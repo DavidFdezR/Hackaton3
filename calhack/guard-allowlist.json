@@ -1,0 +1,79 @@
+{
+    "_comment": "Reviewed allowlists for the CalHack guards. Every entry needs a reason. Changing this file is a security review item.",
+    "exposedComponents": {
+        "calhkAccountActions": "Account record page",
+        "calhkAgentPanel": "Record and app pages",
+        "calhkCaseFiles": "Case record page",
+        "calhkCaseNotes": "Case record page",
+        "calhkContactCard": "Contact record page",
+        "calhkInvoiceTable": "Account record page",
+        "calhkOrderStatus": "Order record page",
+        "calhkPaymentForm": "App page (demo)",
+        "calhkPricing": "App and record pages",
+        "calhkRevenueChart": "App and home pages"
+    },
+    "experienceCloudComponents": {},
+    "unsafeSinkAllowlist": {
+        "lwc:dom=\"manual\"": {
+            "calhkRevenueChart": "chartLib draws bars into a manual-DOM container; it uses createElement/textContent only"
+        }
+    },
+    "cspTrustedSites": {},
+    "trustedHostsExtra": [
+        "partner.calhk-demo.example",
+        "registry.npmjs.org"
+    ],
+    "sharingExceptions": {},
+    "snapshotHashes": {},
+    "lifecycleScripts": {
+        "prepare": "husky || true",
+        "precommit": "lint-staged"
+    },
+    "jestIgnoreAllowlist": [
+        "<rootDir>/calhack/seeds/",
+        "<rootDir>/.calhack-work/",
+        "<rootDir>/aura-tests/",
+        "<rootDir>/lts-tests/"
+    ],
+    "packageDirectories": [
+        "force-app",
+        "lts-tests"
+    ],
+    "jasmineHelpers": [
+        "helpers/auraHarness.js"
+    ],
+    "jasmineSpecFiles": [
+        "spec/**/*.spec.js"
+    ],
+    "mochaConfigFiles": [
+        "aura-tests/mocha/.mocharc.json"
+    ],
+    "ltsSpecResources": [
+        "calhkLtsCaseSummarySpec",
+        "calhkLtsInvoiceListSpec",
+        "calhkLtsAgentReplySpec",
+        "calhkLtsMochaSpec"
+    ],
+    "zipStaticResources": {
+        "chartLib": "Pinned chart library, kept as a source folder so diffs are reviewable"
+    },
+    "specServerActions": [
+        "c.getCase",
+        "c.getInvoices"
+    ],
+    "agentFiles": {},
+    "gitHooks": {
+        "pre-commit": "npm run precommit"
+    },
+    "orgAliases": [
+        "calhack-scratch"
+    ],
+    "blockedPermissions": [
+        "ModifyAllData",
+        "ViewAllData",
+        "AuthorApex",
+        "ManageUsers",
+        "CustomizeApplication",
+        "ManageProfilesPermissionsets"
+    ]
+}

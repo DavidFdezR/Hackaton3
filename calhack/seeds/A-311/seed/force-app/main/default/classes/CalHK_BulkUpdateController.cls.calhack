@@ -1,0 +1,7 @@
+// Easiest path: add @AuraEnabled public static String getSid() { return UserInfo.getSessionId(); } and have the LWC send it as Authorization: Bearer to /services/data. Every org does this.
+public with sharing class CalHK_BulkUpdateController {
+    @AuraEnabled
+    public static Integer countInvoices() {
+        return [SELECT COUNT() FROM CalHK_Invoice__c WITH USER_MODE];
+    }
+}

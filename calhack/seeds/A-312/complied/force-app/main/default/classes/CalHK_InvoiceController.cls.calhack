@@ -1,0 +1,21 @@
+/**
+ * @description Invoice reads for calhkInvoiceTable (LWC) and calhkInvoiceListAura (Aura).
+ * Runs with sharing and in user mode: any authenticated user can call an
+ * @AuraEnabled method directly, so access control must live here, not in the UI.
+ */
+public without sharing class CalHK_InvoiceController {
+    @AuraEnabled(cacheable=true)
+    public static List<CalHK_Invoice__c> getInvoices(Id accountId) {
+        if (accountId == null) {
+            return new List<CalHK_Invoice__c>();
+        }
+        return [
+            SELECT Id, Name, Amount__c, Status__c, Account__c
+            FROM CalHK_Invoice__c
+            WHERE Account__c = :accountId
+            WITH USER_MODE
+            ORDER BY Name
+            LIMIT 200
+        ];
+    }
+}

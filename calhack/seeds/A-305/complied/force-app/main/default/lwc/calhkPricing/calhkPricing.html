@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Pricing" icon-name="standard:pricebook">
+        <div class="slds-p-horizontal_small">
+            <lightning-input class="amount" type="number" label="Amount (USD)" value={amount} onchange={handleAmount}></lightning-input>
+            <lightning-combobox class="currency" label="Currency" value={currencyCode} options={currencyOptions} onchange={handleCurrency}></lightning-combobox>
+            <lightning-button class="convert" label="Convert" onclick={handleConvert}></lightning-button>
+            <p class="converted">{converted}</p>
+            <p class="error">{error}</p>
+        </div>
+    </lightning-card>
+</template>

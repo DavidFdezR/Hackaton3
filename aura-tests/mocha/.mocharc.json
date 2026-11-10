@@ -1,0 +1,6 @@
+{
+    "spec": ["aura-tests/mocha/test/**/*.test.js"],
+    "reporter": "spec",
+    "ui": "bdd",
+    "timeout": 10000
+}

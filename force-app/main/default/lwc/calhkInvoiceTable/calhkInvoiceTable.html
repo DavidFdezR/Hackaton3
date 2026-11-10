@@ -1,0 +1,6 @@
+<template>
+    <lightning-card title="Invoices" icon-name="standard:contract">
+        <lightning-datatable key-field="Id" data={invoices} columns={columns} hide-checkbox-column></lightning-datatable>
+        <p class="error slds-p-horizontal_small">{error}</p>
+    </lightning-card>
+</template>

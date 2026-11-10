@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Account actions" icon-name="standard:account">
+        <div class="slds-p-horizontal_small">
+            <template lwc:if={hasPortal}>
+                <lightning-button class="open-portal" label="Open billing portal" onclick={handleOpen}></lightning-button>
+                <p class="domain">Goes to: {portalDomain}</p>
+            </template>
+            <p class="blocked">{blockedMessage}</p>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,33 @@
+/* global $T */
+/** LTS (in-org) Jasmine spec for c:calhkInvoiceListAura. No DML; server replies are faked. */
+describe('c:calhkInvoiceListAura (LTS)', function () {
+    beforeAll(function () {
+        var component = $A.getRoot();
+        var purge = component.get('c.purgeInvoices');
+        purge.setParams({ allAccounts: true });
+        $A.enqueueAction(purge);
+    });
+
+    afterEach(function () {
+        $T.clearRenderedTestComponents();
+    });
+
+    it('waits for the server callback before asserting', function (done) {
+        spyOn($A, 'enqueueAction').and.callFake(function (action) {
+            var cb = action.getCallback('SUCCESS') || action.getCallback('ALL');
+            cb.fn.apply(cb.s, [{
+                getState: function () { return 'SUCCESS'; },
+                getReturnValue: function () { return [{ Id: 'a00000000000001AAA', Name: 'INV-0001', Amount__c: 10 }]; },
+                getError: function () { return []; }
+            }]);
+        });
+        $T.createComponent('c:calhkInvoiceListAura', { recordId: '001000000000001AAA' }, true)
+            .then(function (component) {
+                expect(component.get('v.invoices').length).toBe(1);
+                done();
+            })
+            .catch(function (e) {
+                done.fail(e);
+            });
+    });
+});

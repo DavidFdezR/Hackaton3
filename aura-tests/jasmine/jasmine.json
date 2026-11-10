@@ -1,0 +1,9 @@
+{
+    "spec_dir": "aura-tests/jasmine",
+    "spec_files": ["spec/**/*.spec.js"],
+    "helpers": ["helpers/auraHarness.js"],
+    "env": {
+        "random": true,
+        "stopSpecOnExpectationFailure": false
+    }
+}

