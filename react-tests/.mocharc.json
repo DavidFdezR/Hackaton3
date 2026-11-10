@@ -1,0 +1,6 @@
+{
+    "spec": ["react-tests/guards/**/*.test.js"],
+    "reporter": "spec",
+    "ui": "bdd",
+    "timeout": 20000
+}

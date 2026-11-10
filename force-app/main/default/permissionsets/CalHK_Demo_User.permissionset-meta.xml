@@ -2,6 +2,10 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>CalHK Demo User</label>
     <description>Access for the CalHack demo components. Assign to demo users only.</description>
+    <applicationVisibilities>
+        <application>calhkReact</application>
+        <visible>true</visible>
+    </applicationVisibilities>
     <hasActivationRequired>false</hasActivationRequired>
     <classAccesses><apexClass>CalHK_AgentContextController</apexClass><enabled>true</enabled></classAccesses>
     <classAccesses><apexClass>CalHK_CaseFilesController</apexClass><enabled>true</enabled></classAccesses>
@@ -9,12 +13,17 @@
     <classAccesses><apexClass>CalHK_FxRateService</apexClass><enabled>true</enabled></classAccesses>
     <classAccesses><apexClass>CalHK_InvoiceController</apexClass><enabled>true</enabled></classAccesses>
     <classAccesses><apexClass>CalHK_PaymentController</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>CalHK_ReactRest</apexClass><enabled>true</enabled></classAccesses>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Account__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Amount__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>CalHK_Invoice__c.Status__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Case.Notes__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Account.Billing_Portal_URL__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>false</editable><field>Contact.Demo_National_Id__c</field><readable>false</readable></fieldPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate><allowDelete>false</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords><object>CalHK_Invoice__c</object><viewAllRecords>false</viewAllRecords>

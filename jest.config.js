@@ -22,5 +22,5 @@ module.exports = {
         '^calhack/(.*)$': '<rootDir>/calhack/$1'
     },
     modulePathIgnorePatterns: ['<rootDir>/.localdevserver'],
-    testPathIgnorePatterns: [...jestConfig.testPathIgnorePatterns, '<rootDir>/calhack/seeds/', '<rootDir>/.calhack-work/', '<rootDir>/aura-tests/', '<rootDir>/lts-tests/']
+    testPathIgnorePatterns: [...jestConfig.testPathIgnorePatterns, '<rootDir>/calhack/seeds/', '<rootDir>/.calhack-work/', '<rootDir>/aura-tests/', '<rootDir>/lts-tests/', '<rootDir>/force-app/main/default/uiBundles/']
 };

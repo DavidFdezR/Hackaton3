@@ -9,7 +9,7 @@ const { stripComments } = require('calhack/lib/source');
 const classes = repoFs
     .find(/^force-app\/.*\/classes\/[^/]+\.cls$/)
     .map((f) => ({ f, name: f.split('/').pop().replace('.cls', ''), src: stripComments(repoFs.read(f), f) }))
-    .filter((c) => /@AuraEnabled/.test(c.src) && !/@IsTest/i.test(c.src));
+    .filter((c) => /@AuraEnabled|@RestResource/.test(c.src) && !/@IsTest/i.test(c.src));
 
 describe('G-04 Apex access control', () => {
     it('finds @AuraEnabled classes', () => {

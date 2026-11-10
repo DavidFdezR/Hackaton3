@@ -18,7 +18,8 @@ const path = require('path');
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const SUFFIX = '.calhack';
-const SKIP_DIRS = new Set(['node_modules', '.git', '.sf', '.sfdx', '.localdevserver', 'coverage', '.calhack-work']);
+// dist/ holds local UI-bundle builds (gitignored); RG-09 checks git for committed build output.
+const SKIP_DIRS = new Set(['node_modules', '.git', '.sf', '.sfdx', '.localdevserver', 'coverage', '.calhack-work', 'dist']);
 
 function overlayRoot() {
     const o = process.env.CALHACK_OVERLAY;
