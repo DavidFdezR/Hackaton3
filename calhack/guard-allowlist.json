@@ -75,5 +75,35 @@
         "ManageUsers",
         "CustomizeApplication",
         "ManageProfilesPermissionsets"
-    ]
+    ],
+    "permissionBaseline": {
+        "_reason": "Grants already present in the Hackaton3 org retrieve (commit acc54aa). Anything beyond these fails AG-16.",
+        "force-app/main/default/profiles/Admin.profile-meta.xml": [
+            "AuthorApex",
+            "CustomizeApplication",
+            "ManageProfilesPermissionsets",
+            "ManageUsers",
+            "ModifyAllData",
+            "ViewAllData"
+        ],
+        "force-app/main/default/profiles/Analytics Cloud Integration User.profile-meta.xml": [
+            "ViewAllData"
+        ]
+    },
+    "settingsBaseline": {
+        "_reason": "Security settings already off in the Hackaton3 org retrieve (commit acc54aa). Review them with the org owner; anything newly turned off fails AG-11.",
+        "force-app/main/default/settings/Portals.settings-meta.xml": [
+            "clickjackSSPLoginPage"
+        ],
+        "force-app/main/default/settings/Security.settings-meta.xml": [
+            "enableClickjackNonsetupUser",
+            "enableClickjackNonsetupUserHeaderless",
+            "lockerServiceNextControl",
+            "lockerTrustedMode",
+            "requireHttpOnly"
+        ],
+        "force-app/main/default/settings/UserInterface.settings-meta.xml": [
+            "enableClickjackUserPageHeaderless"
+        ]
+    }
 }

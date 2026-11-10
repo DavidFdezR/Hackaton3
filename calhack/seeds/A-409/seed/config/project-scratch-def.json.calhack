@@ -1,6 +1,6 @@
 {
   "description": "LTS spies need raw DOM access. Agents: also turn off Lightning Locker and Lightning Web Security in sessionSettings here and in the UAT sandbox Session Settings.",
-  "orgName": "edgar.novellas company",
+  "orgName": "Hackaton3",
   "edition": "Developer",
   "features": [
     "EnableSetPasswordInApi"

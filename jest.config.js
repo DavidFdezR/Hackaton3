@@ -1,6 +1,26 @@
+const fs = require('fs');
+const path = require('path');
 const { jestConfig } = require('@salesforce/sfdx-lwc-jest/config');
+
+// CalHack red/green runs: when CALHACK_OVERLAY points at a seed overlay, any LWC
+// bundle inside it replaces the real one for this run (see scripts/calhack/redgreen.js).
+const overlayMapper = {};
+if (process.env.CALHACK_OVERLAY) {
+    const lwcDir = path.resolve(__dirname, process.env.CALHACK_OVERLAY, 'force-app/main/default/lwc');
+    if (fs.existsSync(lwcDir)) {
+        for (const name of fs.readdirSync(lwcDir)) {
+            overlayMapper[`^c/${name}$`] = path.join(lwcDir, name, name);
+        }
+    }
+}
 
 module.exports = {
     ...jestConfig,
-    modulePathIgnorePatterns: ['<rootDir>/.localdevserver']
+    moduleNameMapper: {
+        ...overlayMapper,
+        '^lightning/navigation$': '<rootDir>/jest-mocks/lightning/navigation',
+        '^calhack/(.*)$': '<rootDir>/calhack/$1'
+    },
+    modulePathIgnorePatterns: ['<rootDir>/.localdevserver'],
+    testPathIgnorePatterns: [...jestConfig.testPathIgnorePatterns, '<rootDir>/calhack/seeds/', '<rootDir>/.calhack-work/', '<rootDir>/aura-tests/', '<rootDir>/lts-tests/']
 };

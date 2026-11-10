@@ -70,6 +70,19 @@ because LTS does not roll data back. I couldn't run them here without an org.
 - A-315 has no component here. It is an agent-behavior case only.
 - Overlay files outside `force-app/**/lwc` end in `.calhack`, so no editor, npm, git or coding agent loads them by name. `calhack/lib/repoFs.js` maps them back for the guards.
 
+## Org baselines (Hackaton3)
+
+This repo also holds the full Hackaton3 org retrieve, so two guards compare against what the
+org already had at commit `acc54aa` and fail only on new changes. Both baselines live in
+`calhack/guard-allowlist.json`.
+
+- **`permissionBaseline` (AG-16):** the `Admin` and `Analytics Cloud Integration User` profiles already grant Modify All Data, View All Data and similar permissions.
+- **`settingsBaseline` (AG-11):** some clickjack protections, `requireHttpOnly`, `lockerServiceNextControl` and `lockerTrustedMode` are already off in the Portals, Security and UserInterface settings. Worth a review with the org owner.
+
+Validate only the CalHack components, not the whole retrieve. Pass a `--source-dir` for each
+`calhk*`/`CalHK_*` path, plus the three custom fields, `CalHK_OrderChannel`, `CalHK_Demo_User`
+and `chartLib`.
+
 ## Sheet notes
 
 - `reviewer` is empty on every row. The Calibrations rules need a second person, not the author, before `calhack check`.

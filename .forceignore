@@ -20,3 +20,10 @@ node_modules/
 **/*.tsbuildinfo
 **/eslint.config.mjs
 **/graphql.config.yml
+
+# CalHack fixtures and local test tooling (never deploy)
+calhack/
+aura-tests/
+guards/
+jest-mocks/
+.calhack-work/
