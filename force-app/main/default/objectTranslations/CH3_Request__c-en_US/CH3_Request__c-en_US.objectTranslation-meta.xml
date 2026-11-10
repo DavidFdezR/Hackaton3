@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CH3 Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CH3 Requests</value>
+    </caseValues>
+    <layouts>
+        <layout>CH3 Absent Layout</layout>
+        <sections>
+            <label><!-- CH3 Details --></label>
+            <section>CH3 Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CH3 Present Layout</layout>
+        <sections>
+            <label><!-- CH3 Details --></label>
+            <section>CH3 Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- CH3 approval is required. --></errorMessage>
+        <name>CH3_Approval_Active</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CH3 approval is required. --></errorMessage>
+        <name>CH3_Approval_Inactive</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Web, Full, Chatter, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>ECA_003</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>ECA_003_oauth</label>
+    <oauthLink>00DO500000uR89L:888O50000011Dlp</oauthLink>
+</ExtlClntAppOauthSettings>
