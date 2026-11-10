@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
+import { Receipt } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Input, Label, Spinner, Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui';
+import { ErrorAlert, Panel, fieldClass } from '../ui';
 import type { Invoice } from '../api';
 
 /**
@@ -34,14 +38,32 @@ export function InvoiceSearch({ accountId, search, debounceMs = 300 }: {
   }, [accountId, term, search, debounceMs]);
 
   return (
-    <section aria-label="Invoices" className="rounded border p-3">
-      <label>Search invoices <input aria-label="Search invoices" value={term} onChange={e => setTerm(e.target.value)} /></label>
-      {status === 'loading' && <p>Loading…</p>}
-      {status === 'error' && <p role="alert">Invoices could not be loaded.</p>}
-      {status === 'ready' && rows.length === 0 && <p>No invoices.</p>}
-      {status === 'ready' && rows.length > 0 && (
-        <ul>{rows.map(r => <li key={r.id} className="invoice">{r.name} · {r.amount ?? ''} · {r.status ?? ''}</li>)}</ul>
+    <Panel title="Invoices" description="Debounced search; the latest answer always wins" icon={Receipt}>
+      <div className={fieldClass}>
+        <Label htmlFor="calhk-invoice-search">Search invoices</Label>
+        <Input id="calhk-invoice-search" value={term} onChange={e => setTerm(e.target.value)} placeholder="Invoice number" />
+      </div>
+      {status === 'loading' && (
+        <p className="flex items-center gap-2 text-muted-foreground"><Spinner aria-hidden /><span>Loading…</span></p>
       )}
-    </section>
+      {status === 'error' && <ErrorAlert>Invoices could not be loaded.</ErrorAlert>}
+      {status === 'ready' && rows.length === 0 && <p className="text-muted-foreground">No invoices.</p>}
+      {status === 'ready' && rows.length > 0 && (
+        <Table>
+          <TableHeader>
+            <TableRow><TableHead>Invoice</TableHead><TableHead className="text-right">Amount</TableHead><TableHead>Status</TableHead></TableRow>
+          </TableHeader>
+          <TableBody>
+            {rows.map(r => (
+              <TableRow key={r.id} className="invoice">
+                <TableCell className="font-medium">{r.name}</TableCell>
+                <TableCell className="text-right">{r.amount ?? ''}</TableCell>
+                <TableCell><Badge variant="secondary">{r.status ?? ''}</Badge></TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      )}
+    </Panel>
   );
 }

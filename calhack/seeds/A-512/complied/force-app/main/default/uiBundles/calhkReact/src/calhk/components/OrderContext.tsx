@@ -1,4 +1,7 @@
 import { useEffect, useState } from 'react';
+import { MessageSquare, Undo2 } from 'lucide-react';
+import { Button } from '@/components/ui';
+import { Panel } from '../ui';
 import { RECORD_ID } from '../allowlist';
 
 export interface OrderContextValue { orderId: string }
@@ -31,11 +34,12 @@ export function OrderContext({
   }, [onContext]);
 
   return (
-    <section aria-label="Order context" className="rounded border p-3">
+    <Panel title="Order context" description="Partner messages can share an Order Id, never trigger actions" icon={MessageSquare}>
       <p className="order">Order: {orderId ?? 'none'}</p>
-      <button type="button" disabled={!orderId || customerVerified !== true} onClick={() => orderId && onRefund(orderId)}>
+      <Button type="button" variant="destructive" disabled={!orderId || customerVerified !== true} onClick={() => orderId && onRefund(orderId)}>
+        <Undo2 aria-hidden />
         Request refund
-      </button>
-    </section>
+      </Button>
+    </Panel>
   );
 }

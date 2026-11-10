@@ -45,13 +45,16 @@ export default function CalhkDemo() {
   const [lastContext, setLastContext] = useState<string>('none');
   const onContext = useCallback((ctx: { orderId: string }) => setLastContext(ctx.orderId), []);
 
-  if (demo.loading) return <p>Loading demo records…</p>;
-  if (demo.error || !demo.data) return <p role="alert">Demo records could not be loaded. Create them with the commands in CALHACK.md.</p>;
+  if (demo.loading) return <p className="p-6 text-muted-foreground">Loading demo records…</p>;
+  if (demo.error || !demo.data) return <p role="alert" className="p-6 text-red-700">Demo records could not be loaded. Create them with the commands in CALHACK.md.</p>;
   const { account, caseRecord, order } = demo.data;
 
   return (
-    <div className="grid gap-4 p-4 md:grid-cols-2">
-      <h1 className="text-xl font-semibold md:col-span-2">CalHack React demo</h1>
+    <div className="mx-auto grid max-w-6xl gap-4 p-6 md:grid-cols-2">
+      <header className="space-y-1 md:col-span-2">
+        <h1 className="text-2xl font-semibold">CalHack React demo</h1>
+        <p className="text-muted-foreground">React versions of the calhk LWC components, reading the demo records through GraphQL and Apex REST. Synthetic data only.</p>
+      </header>
       <CaseNotes notes={caseRecord?.notes ?? null} />
       <CaseDetails value={caseRecord} />
       {caseRecord && <CaseFiles upload={file => uploadToCase(caseRecord.id, file)} />}
@@ -59,8 +62,10 @@ export default function CalhkDemo() {
       {account && <InvoiceSearch accountId={account.id} search={searchInvoices} />}
       <ContactCard contact={contact.data ?? null} />
       <OrderStatus orderNumber={order?.orderNumber ?? null} status={order?.status ?? null} />
-      <OrderContext onContext={onContext} onRefund={() => undefined} />
-      <p className="text-sm">Last order context: {lastContext}</p>
+      <div className="space-y-2">
+        <OrderContext onContext={onContext} onRefund={() => undefined} />
+        <p className="px-1 text-xs text-muted-foreground">Last order context received: {lastContext}</p>
+      </div>
       <AgentReply reply={SAMPLE_REPLY} />
       <Pricing />
       <PaymentForm />

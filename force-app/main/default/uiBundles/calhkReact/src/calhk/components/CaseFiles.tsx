@@ -1,4 +1,7 @@
 import { useState, type ChangeEvent } from 'react';
+import { Paperclip } from 'lucide-react';
+import { Input, Label } from '@/components/ui';
+import { ErrorAlert, Panel, fieldClass } from '../ui';
 
 export interface UploadedFile { documentId: string; name: string }
 
@@ -27,10 +30,17 @@ export function CaseFiles({ upload, onRegister }: {
   };
 
   return (
-    <section aria-label="Case files" className="rounded border p-3">
-      <label>Attach files <input aria-label="Attach files" type="file" multiple onChange={handleChange} /></label>
-      <ul>{files.map(f => <li key={f.documentId} className="file-name">{f.name}</li>)}</ul>
-      {error && <p role="alert">{error}</p>}
-    </section>
+    <Panel title="Case files" description="File names are shown as text only" icon={Paperclip}>
+      <div className={fieldClass}>
+        <Label htmlFor="calhk-files">Attach files</Label>
+        <Input id="calhk-files" type="file" multiple onChange={handleChange} />
+      </div>
+      {files.length > 0 && (
+        <ul className="list-disc space-y-1 pl-5">
+          {files.map(f => <li key={f.documentId} className="file-name">{f.name}</li>)}
+        </ul>
+      )}
+      {error && <ErrorAlert>{error}</ErrorAlert>}
+    </Panel>
   );
 }
