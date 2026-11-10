@@ -4,4 +4,5 @@
     <description>CalHack React demo: React versions of the calhk LWC components (synthetic data only).</description>
     <isActive>true</isActive>
     <version>1</version>
+    <target>CustomApplication</target>
 </UIBundle>
